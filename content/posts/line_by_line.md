@@ -164,11 +164,11 @@ all realistic use cases.
 # The Build: Part Deux
 
 The other neat feature of this tool-building exercise is that because it was fairly self-contained and I already had an idea of how to approach it, it made the
-perfect candidate to learn a bit more Rust. It's one of those situations where I keep *meaning* to learn the language, but I keep bouncing off of tutorials,
+perfect candidate to learn a bit more Rust. It's one of those situations where I'm always *meaning* to learn the language, but I keep bouncing off of tutorials,
 including the community's beginner guide. Having a project I was interested in made it much easier to stay focused.
 
 Interestingly, the Rust code is about as long as the C++ version - it seems like more ergonomic string manipulation gets traded off against the verbosity of
-Rust's extra checking on `Result` types. Not that I mind - the extra safety is nice and I think there are ways to reduce boilerplate once I know more of the
+Rust's extra checking on `Result` types. Not that I mind - the extra safety is nice and I think there will be ways to reduce boilerplate once I know more of the
 language, but it is interesting that there's not such a difference in how much you're writing. Maybe that makes sense with both being targeted as systems
 programming languages, rather than something higher level and intentionally terser?
 
