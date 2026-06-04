@@ -27,7 +27,7 @@ Fuck it. Fuck them.
 
 It's a lie, and you know it. I'll talk about it more later on, I'm sure. But they're desperate to own you and discourage
 you. They wouldn't know creativity if it pissed on them and the only thing they actually make themselves is what they
-flush after their morning constitutional.
+flush down after their morning constitutional.
 
 So what the hell do we do about it?
 
@@ -46,7 +46,7 @@ what you leave and what you take. The pieces exist: Byzantine consensus, MapRedu
 inspiration exists: Linux started as one man's hobby project task scheduler.
 
 Monopolists and infofascists want to squeeze everyone out of any way of doing things they don't own. Build software NewSpeak. But they
-will never touch royalty. The blade that cleaves their horizon must be swung from the center of our chest.
+will never touch royalty. The blade that cleaves their event horizon must be swung from the center of our chests.
 
 That's all abstract, I know.
 
