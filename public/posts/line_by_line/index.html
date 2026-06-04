@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>Line by line :: Briar Patch</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Keep the old ways..." />
+<meta name="keywords" content="Editor, Recap" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="http://localhost:1313/posts/line_by_line/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/code.min.c4581949edab7810737609fc5568852bcd908945f14561e366dcd2300a370545.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/syntax.min.a2cc694a9b481f15d41722bffc2cc54eea4c4f74fd9072b0b33253604c22606e.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="http://localhost:1313/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Line by line">
+<meta property="og:description" content="Keep the old ways..." />
+<meta property="og:url" content="http://localhost:1313/posts/line_by_line/" />
+<meta property="og:site_name" content="Briar Patch" />
+
+  <meta property="og:image" content="http://localhost:1313/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2026-05-29 00:55:04 -0700 PDT" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container full">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Briar Patch
+  </div>
+</a>
+
+    </div>
+    
+    
+  </div>
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/posts/line_by_line/">Line by line</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2026-05-29</time><span class="post-author">Briar</span></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="http://localhost:1313/tags/retro/">Retro</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/projects/">Projects</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/c&#43;&#43;/">C&#43;&#43;</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/rust/">Rust</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/muck/">MUCK</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="ancient-history">Ancient History<a href="#ancient-history" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Since I talked about building things last time, it&rsquo;s only fair I share the things I&rsquo;ve been working on. A lot recently has been inspired by old tech.
+Some of it is probably nostalgia for an era I didn&rsquo;t really get to experience, but some of it is genuine delight. Lately I&rsquo;ve been excited by the
+cutting edge of early-90s internet - the MUCK.</p>
+<p>The hell is that? Well, it&rsquo;s a less grind-oriented variant of the multi-user dungeon (MUD).</p>
+<p>Imagine something like a text game based on tabletop RPGs, except genuinely multiplayer as mediated by the same kind of systems used to run
+bulletin boards on the early internet. Something like a transitional form between <em>Rogue</em> and <em>Ultima Online</em>. Or for a modern analogy, what
+a friend described as text-based VRChat.</p>
+<p>The parallel to VR is striking, actually. There&rsquo;s a level of immersion to MUCKs that you don&rsquo;t get elsewhere because the systems were designed to be
+player-extensible. You want to set up a tavern with multiple rooms, a bar, an NPC bartender, and automated seasonal events? It&rsquo;s yours, if you
+spend some time to learn the built-in scripting/markup language the server knows how to interpret. Once it&rsquo;s done, anyone else on the server can
+visit, buy a drink, explore the rooms, and interact with other customers (human or NPC). And since everything is text, the limit is just your
+imagination - unlike VRC there&rsquo;s no need to buy fresh assets or spend hours retexturing things in Blender. Your first, last, and only tool is
+a text editor.</p>
+<p>Even more amazing to me is the fact that there are still a few of these servers running. Pre-World Wide Web gathering spots that continue to
+attract a trickle of players even today.</p>
+<h1 id="weird-tech">Weird Tech<a href="#weird-tech" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>About that text editor - the first, last, and only one? There&rsquo;s something a bit weird about it. You see, MUCK servers run off the telnet protocol
+(or the TLS version these days), which means that their interface is line-oriented. When you press <kbd>Enter</kbd>, you&rsquo;re officially done with
+your current input, and the total character count of a single input block is typically limited by the server.</p>
+<p>So how do you get your descriptions and your markup onto the server?</p>
+<p>That&rsquo;s where the built-in text editor comes in. Like telnet, it&rsquo;s designed to be line-based, so there&rsquo;s no WYSIWYG interface or X-forwarding or
+anything like that. But there <em>is</em> prior art.</p>
+<p>It turns out that a similar problem existed in the early days of computing. Most input came from line-oriented terminals, which could be nothing
+more than fancy electrified typewriters, and output was similiarly dumped to line printers (the same idea but in reverse, kind of a player-piano
+analogue of a typewriter). &ldquo;Scrollback&rdquo; amounted to skimming back up the physical paper sheet that had extruded so far from your device, so
+managing multi-line input was a nontrivial task.</p>
+<p>The solution winds up being the line editor, which continues down the decades as the <code>ed</code> editor in Unix. Once you start it up, you enter your
+input one line at a time, but the program pastes each new line into a file somewhere, and when prompted, it can spit out the full text at you.
+Editing commands are handled by marking the input with special characters, the popular MUCK option being to start command words with <code>.</code>, since
+typically you won&rsquo;t be starting your sentence by ending it.</p>
+<p>With commands to move around across existing lines, insert, delete, copy, move, and do basic find-and-replace, you can get some surprising mileage
+out of an editor like this, typically looking like so:</p>
+<pre tabindex="0"><code>~$ edit
+Welcome! Use &#34;.help&#34; for command list.
+&lt;Inserting at line 1.&gt;
+&gt; About that text editor - the first, last, and only one?
+&gt; There&#39;s something a bit weird about it.
+&gt; When you press &lt;kbd&gt;Enter&lt;/kbd&gt;, you&#39;re officially done with your current input.
+&gt; .insert 3
+&lt;Inserting at line 3.&gt;
+&gt; You see, MUCK servers run off the telnet protocol, which means their interface is line-oriented.
+&gt; .print
+About that text editor - the first, last, and only one?
+There&#39;s something a bit weird about it.
+You see, MUCK servers run off the telnet protocol, which means their interface is line-oriented.
+When you press &lt;kbd&gt;Enter&lt;/kbd&gt;, you&#39;re officially done with your current input.
+&lt;Inserting at line 4.&gt;
+...
+</code></pre><p>As it turns out, this kind of editor is pretty simple to program. It&rsquo;s not winning any awards for user-friendliness, but for a somewhat narrow domain
+where users can be expected to have a degree of technical savvy (mostly regarding command line weirdness) it&rsquo;s a solid tradeoff - users get features
+that would be painful to do in piecemeal manual batches and developers don&rsquo;t need to fuss with <code>ncurses</code> or GUI libraries or complex formatting and
+presentation algorithms. From that standpoint, I think it&rsquo;s a really good example of what the best of internal tooling can be. While relatively few
+software shops need line editors <em>per se</em>, being able to strike the right balance of efficiency gain vs. user experience vs. time to develop a
+particular tool is very much still a key consideration to this day.</p>
+<h1 id="the-build">The Build<a href="#the-build" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>My implementation of a relatively full-featured line editor runs to just shy of 600 lines of C++ code and some portion of that is embedded help text, so it
+really is a fairly straightforward tool to develop. It&rsquo;s probably even easier in a language that has a less adversarial relationship to strings and
+text processing, but I was in the old-school mindset so C++ is where we ended up. One thing I discovered is that C++ is much less of a headache to use
+for text processing if you take the time to define good helper methods.</p>
+<p>In particular, it&rsquo;s a shame C++ doesn&rsquo;t define simpler ways of trimming and padding strings but I got on okay with my <code>trim_left</code> and <code>trim_right</code> methods.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span>std<span style="color:#f92672">::</span>string Editor<span style="color:#f92672">::</span>trim_left(std<span style="color:#f92672">::</span>string <span style="color:#66d9ef">const</span> <span style="color:#f92672">&amp;</span>line) {
+</span></span><span style="display:flex;"><span>  size_t start <span style="color:#f92672">=</span> line.find_first_not_of(<span style="color:#e6db74">&#34; </span><span style="color:#ae81ff">\t</span><span style="color:#e6db74">&#34;</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (start <span style="color:#f92672">==</span> std<span style="color:#f92672">::</span>string<span style="color:#f92672">::</span>npos) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;&#34;</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> line.substr(start);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>std<span style="color:#f92672">::</span>string Editor<span style="color:#f92672">::</span>trim_right(std<span style="color:#f92672">::</span>string <span style="color:#66d9ef">const</span> <span style="color:#f92672">&amp;</span>line) {
+</span></span><span style="display:flex;"><span>  size_t end <span style="color:#f92672">=</span> line.find_last_not_of(<span style="color:#e6db74">&#34; </span><span style="color:#ae81ff">\t</span><span style="color:#e6db74">&#34;</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (end <span style="color:#f92672">==</span> std<span style="color:#f92672">::</span>string<span style="color:#f92672">::</span>npos) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;&#34;</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> line.substr(<span style="color:#ae81ff">0</span>, end <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>For the command parsing, I knew every command would begin with <code>.</code> but the detailed syntax varied quite a bit, from commands like <code>.end</code> to save and quit
+that didn&rsquo;t take any parameters, to complex find-and-replace commands that could operate on entire line intervals with basic regex patterns. The full-strength
+way to handle this probably would have involved making a mini-parser, but I didn&rsquo;t want to get bogged down in my own set of regular expressions or state
+machines, so I took the approach I usually use in Python and handled 80% of the issue by breaking command inputs on known delimiters and building up my
+parameter list that way.</p>
+<p>Of course, that decision meant I needed a way to split a line in C++, which is shockingly hard because of the Martian logic involved in the design of the
+<code>std::string</code> substring methods&hellip; In the end, I rolled my own.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span>std<span style="color:#f92672">::</span>pair<span style="color:#f92672">&lt;</span>std<span style="color:#f92672">::</span>string, std<span style="color:#f92672">::</span>string<span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>Editor<span style="color:#f92672">::</span>split_on_first(std<span style="color:#f92672">::</span>string <span style="color:#66d9ef">const</span> <span style="color:#f92672">&amp;</span>line, std<span style="color:#f92672">::</span>string <span style="color:#66d9ef">const</span> <span style="color:#f92672">&amp;</span>patt) {
+</span></span><span style="display:flex;"><span>  size_t idx <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>  size_t end <span style="color:#f92672">=</span> line.find_first_of(patt, idx);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (end <span style="color:#f92672">==</span> std<span style="color:#f92672">::</span>string<span style="color:#f92672">::</span>npos) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> {line, <span style="color:#e6db74">&#34;&#34;</span>};
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// this range will exclude the split-on character
+</span></span></span><span style="display:flex;"><span>  std<span style="color:#f92672">::</span>string first <span style="color:#f92672">=</span> line.substr(idx, end <span style="color:#f92672">-</span> idx);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  idx <span style="color:#f92672">=</span> line.find_first_not_of(patt, end);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (idx <span style="color:#f92672">==</span> std<span style="color:#f92672">::</span>string<span style="color:#f92672">::</span>npos) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> {first, <span style="color:#e6db74">&#34;&#34;</span>};
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  std<span style="color:#f92672">::</span>string rest <span style="color:#f92672">=</span> line.substr(idx);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> {first, rest};
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Beyond the parsing and help text, it&rsquo;s mostly just performing the requested operations and inserting text. Since the whole point was to avoid overly complex
+implementation details, I didn&rsquo;t opt for any fancy data structures to enable efficient arbitrary insertion within a text string, I just tossed each line into a
+<code>std::vector&lt;std::string&gt;</code> and let the STL sort it out.</p>
+<p>The justification is that ultimately, unless you&rsquo;re keeping the text of <em>Moby Dick</em> in a single file
+and trying to work with it, even a full copy-and-shift to insert at the beginning of the document should be faster than humans can type a line of text. Plus
+the typical use case is appending text, where there&rsquo;s no difference between vector append and the fancy stuff.</p>
+<p>One thing that did end up being tricky was testing the code. Because it was meant to be part of an interactive system, the most direct thing to do was just fire it
+up and see if I could break it by hand, but that wasn&rsquo;t very helpful for regression testing.</p>
+<p>If I was going to release this for real, I&rsquo;d probably set up a few friend classes to test the methods handling each command, along with general user input
+processing in isolation. If I was really going all out, I&rsquo;d consider extending the interface to accept a file as input and treat it like a recording of a user&rsquo;s
+session, then compare the results to a hand-checked gold standard file. There are still some issues there, since you can&rsquo;t pick up behaviors that don&rsquo;t get
+recorded in the final save state (like multi-step edits), but combining those approaches plus some manual experimenation would probably be good enough for almost
+all realistic use cases.</p>
+<h1 id="the-build-part-deux">The Build: Part Deux<a href="#the-build-part-deux" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>The other neat feature of this tool-building exercise is that because it was fairly self-contained and I already had an idea of how to approach it, it made the
+perfect candidate to learn a bit more Rust. It&rsquo;s one of those situations where I&rsquo;m always <em>meaning</em> to learn the language, but I keep bouncing off of tutorials,
+including the community&rsquo;s beginner guide. Having a project I was interested in made it much easier to stay focused.</p>
+<p>Interestingly, the Rust code is about as long as the C++ version - it seems like more ergonomic string manipulation gets traded off against the verbosity of
+Rust&rsquo;s extra checking on <code>Result</code> types. Not that I mind - the extra safety is nice and I think there will be ways to reduce boilerplate once I know more of the
+language, but it is interesting that there&rsquo;s not such a difference in how much you&rsquo;re writing. Maybe that makes sense with both being targeted as systems
+programming languages, rather than something higher level and intentionally terser?</p>
+<p>Either way, I think the biggest things I learned through the process of conversion were first off how to wrap my head around manipulating <code>Result</code> values while
+trying to avoid just throwing exceptions, and then toward the end how nice generic lifetimes can be. As far as <code>Result</code> goes, I think the language facilities like
+<code>unwrap_or</code> go a long way toward letting you move forward with sane results, but it takes more thinking to figure out what the right defaults should be. Lifetimes
+are something I really wish C++ had now that I&rsquo;ve seen a little of them - to do the same thing as Rust you&rsquo;re mostly limited to bashing RAII approaches into
+something like the shape you want, but having an explicit way for the compiler to confirm &ldquo;this thing exists for at least as long as I need it&rdquo; takes out so
+much tedium and second-guessing. At least C++23 brings <code>std::expected&lt;T,E&gt;</code> for something like a <code>Result</code> type&hellip;</p>
+<p>The other big thing I took away is how much Rust supports compile-time validation of good practice, like not missing cases in a <code>match</code> statement. C++ can do something
+kind of like that with <code>switch</code> statements and the right compiler flags, but with Rust you get immediate feedback you&rsquo;ve missed something if you&rsquo;re running
+a language server alongside your editor. C and C++ usually need something like <code>gcc -Wall -Wextra -Werror</code> and <code>clangd</code> may or may not flag it depending on your config.
+Rust just works out of the box.</p>
+<h1 id="rolling-your-own-unix-tools">Rolling Your Own Unix Tools<a href="#rolling-your-own-unix-tools" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Although the line editor is just a single project, there are lots more examples of the same thing - interesting old tech that still has a lot to teach us
+about designing and building useful tools. Some of them I&rsquo;ve played with are also drawn from the MUCK world, and I&rsquo;ll probably talk about those eventually,
+but one especially rich source of ideas comes from a book called <em>Software Tools</em> by Kernighan and Plauger. It&rsquo;s ancient, and my well-loved used copy has
+a Stanford Research Institute decal on the spine so you know the pedigree is top-notch, but what exactly is it? Well, the general premise is &ldquo;How can I get
+Unix tools if I work somewhere that hasn&rsquo;t heard of Unix?&rdquo;. In the 70s, that was a more reasonable question than today, where Linux kind of ate the internet,
+but the answer remains illuminating if you take the time to unfold it.</p>
+<p>In the book, they meet the question by demonstrating how to develop a number of command line tools similar to or inspired by the familiar Unix entries,
+effectively teaching you how to roll your own Unix environment, if not your own OS. While none of the resulting tools are all that helpful by themselves
+in today&rsquo;s world, where the genuine articles are a VM instance away at worst, the real revelation is the first-hand insight the text gives into the logic
+that went into designing these tools originally and the context it builds around why they were needed. The result is what amounts to a host of worked examples
+demonstrating exactly how to weigh the tradeoffs between utility and complexity when building&hellip; well, Software Tools.</p>
+<p>These little gems are the reason I can&rsquo;t quit exploring ancient software - older code typically deals with more fundamental problems and hasn&rsquo;t had
+as much time for incidental complexity to crust over it like a coat of intellectual barnacles. The distilled problem and solution are then almost textbook
+examples, but critically they&rsquo;re ones that solve <em>real</em> problems. It&rsquo;s a best of both worlds situation that is hard to find elsewhere.</p>
+<p>If you can locate a copy (or a PDF that fell off the back of a truck) of <em>Software Tools</em>, I strongly recommend at least skimming it, just to see if it gets
+any creative juices flowing.</p>
+<p>You should also, of course, support your local MUD/MUSH/MUCK - fantasy RP is a much more palatable way to hone your writing skills than workbooks or
+exercises, and much lower stakes than a presentation to some corporate VP. Plus it&rsquo;s a non-work way to stimulate those juices (creative and occasionally
+otherwise&hellip;) while keeping things weird and wonderful.</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="http://localhost:1313/posts/bad_engineer_llms/" class="button inline prev">
+        &lt; [<span class="button__text">LLMs Are Bad at Software</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="http://localhost:1313/posts/get_weird/" class="button inline next">
+         [<span class="button__text">Get Weird</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

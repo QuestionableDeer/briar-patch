@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>LLMs Are Bad at Software :: Briar Patch</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="And they&#39;ll make you worse at it too." />
+<meta name="keywords" content="LLMs, Software, Engineering" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="http://localhost:1313/posts/bad_engineer_llms/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/code.min.c4581949edab7810737609fc5568852bcd908945f14561e366dcd2300a370545.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/syntax.min.a2cc694a9b481f15d41722bffc2cc54eea4c4f74fd9072b0b33253604c22606e.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="http://localhost:1313/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="LLMs Are Bad at Software">
+<meta property="og:description" content="And they&#39;ll make you worse at it too." />
+<meta property="og:url" content="http://localhost:1313/posts/bad_engineer_llms/" />
+<meta property="og:site_name" content="Briar Patch" />
+
+  <meta property="og:image" content="http://localhost:1313/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2026-06-01 22:27:41 -0700 PDT" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container full">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Briar Patch
+  </div>
+</a>
+
+    </div>
+    
+    
+  </div>
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/posts/bad_engineer_llms/">LLMs Are Bad at Software</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2026-06-01</time><span class="post-author">Briar</span></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="http://localhost:1313/tags/rant/">Rant</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/ai/">AI</a>&nbsp;
+      
+      #<a href="http://localhost:1313/tags/llms/">LLMs</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>I am incredibly tired of &ldquo;reasonable&rdquo; takes about LLMs being used to develop software. &ldquo;Well, they&rsquo;re useful for-&rdquo; No! They&rsquo;re
+unethical plagiarism machines that exploit some of our worst addictive impulses while being trained to flatter us so we&rsquo;ll
+spend more time and money on an ecologically destructive and inefficient method of approximating text sequences. They are
+insidious and I&rsquo;m going to lay out how they screw up your coding and your critical thinking in all sorts of ways.</p>
+<p>The &ldquo;AI is fine in moderation&rdquo; takes hit me at this point in the same way as those pseudo-intellectual claims to &ldquo;centrism&rdquo; which wind up defending
+fascists and Nazis because both sides have some good points which ought to be heard&hellip; And make no mistake, the people with monopoly control
+of these fabrication engines are absolutely on the side of the fascists right now, handing over VC money to the worst politicians
+you know because deep down they want the same absolute control the Nazi fucks are trying to grab for themselves.</p>
+<p>They&rsquo;re gleeful over the idea that maybe if they click their heels together enough times they&rsquo;ll be able to claim exclusivity
+over both labor and production while regular people starve.</p>
+<p>Fuck them and fuck the people who support them.</p>
+<p><strong>*Ahem*</strong></p>
+<p>With that out of the way, let&rsquo;s look in a little more detail at the ways that using LLM &ldquo;tools&rdquo; rapidly and profoundly undermines
+your ability to develop software while atrophying your analytical capacity.</p>
+<h1 id="subtle-bugs-are-the-worst">Subtle Bugs Are the Worst<a href="#subtle-bugs-are-the-worst" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>A point which seemed obvious to me from the very beginning of the LLM coding push is that agents being able to create a reasonable
+approximation of functional code is actually kind of a nightmare for correctness. If you&rsquo;ve spent any time working on a significant
+piece of code, you&rsquo;ve probably come to realize that the severity of bugs goes something like:</p>
+<p><code>Doesn't Compile</code> -&gt; <code>Segfault/Obvious Crash</code> -&gt; <code>Consistent Logical Bugs</code> -&gt; <code>Race Conditions and Subtle Logic Bugs</code></p>
+<p>If an LLM can output code that&rsquo;s at least syntactically valid and is made to iterate on the code until it no longer crashes, you&rsquo;re
+left with only the most severe bug categories to deal with. And the best way to rule out those issues is to have a very clear sense
+of what code has actually been produced and how it relates to the problem domain you&rsquo;re working in (this is basically the informal
+version of Floyd-Hoare proofs).</p>
+<p>But that connection to the code and the details of the implementation is precisely what you give up when
+you leave code generation to a stochastic process - even if you&rsquo;ve followed all the guidelines and tried to
+build up LLM code from a clear problem statement, multiple model examples, and a well-defined spec, you still don&rsquo;t really
+know anything about the implementation until you read it, and the implementation is where all those worst-of-the-worst bugs lurk&hellip;</p>
+<p>But surely the tests will catch it, right?</p>
+<h1 id="your-tests-suck">Your Tests Suck<a href="#your-tests-suck" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Look me in the eye and tell me your testing story doesn&rsquo;t suck. Maybe, maaaaybe for a few smaller teams working with high autonomy
+in an organization that prioritizes technical skill above all else you can raise the bar to decent testing. But most testing sucks.
+Most of it looks something like this:</p>
+<ul>
+<li>
+<p>Incomplete coverage</p>
+</li>
+<li>
+<p>Broken assumptions so tests always pass</p>
+</li>
+<li>
+<p>Flaky test results because half the org doesn&rsquo;t know what a race condition
+even is</p>
+</li>
+<li>
+<p>Fixes that amount to special casing either the code or the test</p>
+</li>
+<li>
+<p>Untestable implementations of major features</p>
+</li>
+</ul>
+<p>On and on and on and on&hellip;</p>
+<p>Odds are good you&rsquo;ve seen most or all of these if you&rsquo;ve worked professionally for more than a year or two. Odds are good you&rsquo;ve contributed to
+some of those issues yourself. Do you really trust your current test suite to catch subtle logical corner cases in new code? Or
+to suss out intermittent race conditions? Catch memory leaks? Silent buffer overflows?</p>
+<p>Will you even be able to tell that a failing test means something is broken? Or is it just flaky?</p>
+<p>The average corporate test suite is not an environment where you can leave junior developers unsupervised, let alone LLMs. If you
+don&rsquo;t believe me, go read up on how many fresh incidents have been caused at any of the Big Tech names after their AI-first mandates
+rolled out. Things are breaking in large part because everyone&rsquo;s testing sucks. And the only answer the boosters have is to try and
+write more tests using AI. Is the chicken-and-egg problem apparent yet?</p>
+<p>Probably the only way to responsibly ship LLM-generated code is with careful, exhaustive human review to ensure the apparent
+semantics match up with the intended ones.</p>
+<h1 id="reviewer-fatigue-on-steroids">Reviewer Fatigue on Steroids<a href="#reviewer-fatigue-on-steroids" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Of course, human review doesn&rsquo;t scale. Again, if you don&rsquo;t believe me, just go look at the spate of articles we&rsquo;ve had about
+senior engineers and open source maintainers burning out faster than ever because of the burden of wading through mountains
+of AI slop.</p>
+<p>Reviewing is no one&rsquo;s favorite activity, so it tends to get relegated to a half-awake <code>LGTM</code> first thing in the morning or
+a few vanity nitpicks to assuage the guilt of lingering PRs before an engineer packs up for their three day weekend. Making more
+of the job about reviewing code is simply not going to end well. Human nature and laziness will win out, and code that merely looks right
+will get shipped (arguably it&rsquo;s already getting shipped, based on the reports of severe incidents due to AI changes at Amazon and
+friends). But code that looks right doesn&rsquo;t always behave right, and the more complex the application domain, the worse that mismatch
+can be.</p>
+<p>Oddly, I keep seeing the AI stans try to claim that forcing yet more tedious review of LLM code onto overworked humans is somehow shifting the job
+back toward &ldquo;big-picture engineering&rdquo; and away from &ldquo;tedious coding and implementation&rdquo;.</p>
+<p>I don&rsquo;t know about them, but I actually <em>like</em>
+writing code and solving problems; certainly I like it much more than parsing out what a plagiarism machine fattened off mediocre student GitHub
+projects was doing by stringing together some unholy sequence of function calls. Making development into LLM review drudgery isn&rsquo;t &ldquo;liberating&rdquo;,
+though it does make it feel more like a middle manager&rsquo;s job, which seems to be all the suits really understand anyway.</p>
+<h1 id="bottleneck-detected-between-keyboard-and-chair">Bottleneck Detected Between Keyboard and Chair<a href="#bottleneck-detected-between-keyboard-and-chair" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>I intetionally held off from discussing what LLM advocates always offer up as the panacea to this exponential scaling of slop review -
+in their eyes we just have to scale up even faster by letting agents handle more of the review process! Simply create new code review agents to validate
+the code your existing coding agents spit up. Simple! Genius!</p>
+<p>I wish I could poke holes in their confidence by pointing out that we don&rsquo;t let <em>humans</em> review their own code for a host of good reasons,
+but after watching multiple otherwise-sane engineers fall victim to this kind of thinking, I suspect it stems from a deeper psychic wound.</p>
+<p>Personally, I think the contagion ultimately arises from the fact that LLMs are marketed as being so much more <em>productive</em> than a human developer,
+with the strong implication that this productivity leads to them generating more <em>value</em> than a human developer. They repeat this even though LLM
+productivity is mainly measured by lines of code (or simple proxies thereof), a value metric we&rsquo;ve known was bogus for decades. If productivity-as-quantity
+becomes your guiding metric, you very rapidly slam into the realization that you can&rsquo;t churn out code nearly as fast as you want to because of
+all the non-coding bottlenecks in the system.</p>
+<p>In fact, every human-in-the-loop system has one huge, glaring bottleneck: the human.</p>
+<p>Since you&rsquo;ve already ceded ground to letting the AI write code for you, it becomes that much easier to talk yourself into letting it
+review the code too - after all, it&rsquo;s probably a separate instance, or you can use a different model, or different context, or a different
+agent&hellip; And then why bother spending all this time running a full regression test suite on every check-in? You could probably have some
+automated agent select which tests are most informative based on the PR diffs and cut way down on time-to-merge. Then of course
+you need some LLM automation to deploy to production, plus AI monitors, and an agentic way to roll back bad code or roll out hotfixes&hellip;</p>
+<p>You might think I&rsquo;m joking, but I have heard every single one of these proposals discussed with stone-faced
+seriouness by people with Principal or VP in their titles. Often the whole list has been proposed in rapid succession within the same meeting.</p>
+<p>And don&rsquo;t get me started on the plans to have an LLM document the code with minimal oversight. &ldquo;Dictated but not read&rdquo;, indeed.</p>
+<h1 id="friction-is-good-actually">Friction is Good, Actually<a href="#friction-is-good-actually" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Mistaking quantity for quality is only one of the issues at play here, though. The underlying impulse toward making all aspects of
+development automated and frictionless fails to appreciate that sticking points are often an indication that we&rsquo;re heading for a dead end.</p>
+<p>Maybe we&rsquo;re solving the wrong problem, or maybe our approach is too inefficient and can&rsquo;t scale the way we need it to. Whatever the case, those
+moments writing code where you think &ldquo;Oh, this will be a pain&rdquo; or &ldquo;Yikes, this takes so long to run, even on the test cases&rdquo; are the first
+warning signs that something important is getting overlooked.</p>
+<p>LLMs experience no such doubt, and will happily volunteer to write code for finding arbitrary Busy Beaver numbers, but <em>you&rsquo;ll</em> be the one stuck
+wondering why your program never finishes. The disconnect is magnified for real problems where exponentially complex gotchas can lurk in the
+cracks of seemingly innocuous specifications.</p>
+<p>More generally, I&rsquo;m compelled to argue that in fact, there is no clear separation to be made between design, specification, and coding
+in software engineering. You can&rsquo;t draw an arbitrary line and say that everything to one side is just mechanical implementation of some nobler idea.
+Each phase informs and updates the others, making software engineering much more like solution by successive approximations than an <em>ab initio</em>
+laying down of some immutable axiomatic proof.</p>
+<p>Indeed, I often find that aspects of a problem I never even considered during higher-level design suddenly smack me in the face while I&rsquo;m actually
+writing the code. And they tend to do the smacking with all the tooth-rattling force of a missed step off the curb. It invariably means going back
+to the drawing board to address the underlying issue, but avoiding that effort would only leave the code broken or badly unfit for its purpose.</p>
+<p>Iterative refinement end-to-end has long been a guiding principle for software engineering, but there are lots of developers now ignoring the related
+feedback loop between design and implementation. If we delegate writing code to an LLM, we lose most of those feedback points, especially if we&rsquo;re
+eager to take it at face value when the mechanical sychophant tells us &ldquo;Job&rsquo;s done, boss&rdquo;.</p>
+<p>This is an arena where even perfect testing and the strictest compiler settings can&rsquo;t help guide AI, because often what&rsquo;s lacking is an entire
+branch of the program specification itself. Overlooked connections, unrecognized assumptions, or just the ever-present drift in user
+needs over the course of a project - developing high-quality, useful software means taking advantage of any and all opportunities to close those
+gaps, and I&rsquo;m convinced that means deeply involving yourself in the details of code construction.</p>
+<p>To give a parallel example that might be familiar, think back to math and science courses in school. I&rsquo;m willing to bet that you&rsquo;ve had
+at least a few experiences where you looked at something on the homework, went &ldquo;I know how to solve that&rdquo;, and then wound up in a hopeless muddle
+halfway through because you only clearly saw the start and end of the process. The connection you assumed would come naturally wound up
+missing, and the absence only became clear when you started the seemingly rote process of stitching together a proof from your rough outline.</p>
+<p>Should we really expect complex problems arising from real world needs to be any less challenging to address than textbook examples? So
+why do we give the proof of Euclid&rsquo;s algorithm more care and attention than the development of a distributed database?</p>
+<h1 id="software-as-theory-software-as-process">Software as Theory, Software as Process<a href="#software-as-theory-software-as-process" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>The science homework example may be closer to the truth than it seems. Peter Naur famously argued that programming was theory-building, a reflection
+of our understanding of the world. That understanding improves only when we actively engage with both the theory we&rsquo;re constructing
+and the world it represents. Delegating the details to someone else won&rsquo;t get us there.</p>
+<p>Viewing software as theory also means dispensing with the idea that code itself is the primary end goal of development. It&rsquo;s certainly the most
+concrete artifact, and the thing that ultimately gets shipped, but it&rsquo;s a snapshot in time of the process that created it. Meanwhile, the
+context involved in that creation, and much of the world-modelling it represents still lives in developer&rsquo;s heads. Even a broad view of code that
+includes configuration, documentation, and design specifications fails to account for the intrinsic human factor of the theory building, but
+it&rsquo;s precisely this aspect which becomes most important during maintenance or updates - any time the software needs to evolve, that understanding
+is required to make the changes work in a sustainable way.</p>
+<p>Arguably, legacy code is code that works but which no longer has anyone available to explain why the decision was made for it work this way originally.
+In turn, that makes all LLM code legacy right from the outset. The process of development has been short circuited and an essential aspect
+is missing with no way to recover it - we have the how but not the why. Usually, when writing comments we deplore this sort of mechanistic rehashing,
+so why should we tolerate it for entire programs?</p>
+<h1 id="reasonable-conclusions-from-an-unreasonable-rant">Reasonable Conclusions from an Unreasonable Rant<a href="#reasonable-conclusions-from-an-unreasonable-rant" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>To be blunt, the problems outlined above (along with many more like them) mean that LLMs should not be used for software development. While they may be able
+to generate functional code in some cases, it&rsquo;s not without serious costs - engineers <em>must</em> spend time validating the outputs line-by-line or else they&rsquo;ll
+spend it fixing what goes wrong when unvalidated LLM code escapes into the wild.</p>
+<p>More recently, even the cost in cold, hard lucre is becoming impossible to deny as more and more model providers switch over to direct API billing in place
+of subscription fees. Executives who once practically commanded their employees to burn tokens are now taking a step back and asking for moderation and
+efficiency in deploying agentic systems. It is rapidly becoming clear that not only will using LLMs make you a worse engineer, they&rsquo;ll charge an arm and
+a leg for the privilege.</p>
+<p>Just don&rsquo;t use them.</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+    
+    
+      <a href="http://localhost:1313/posts/line_by_line/" class="button inline next">
+         [<span class="button__text">Line by line</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

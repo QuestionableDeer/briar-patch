@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Briar Patch</title>
+    <link>http://localhost:1313/tags/projects/</link>
+    <description>Recent content in Projects on Briar Patch</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 May 2026 00:55:04 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Line by line</title>
+      <link>http://localhost:1313/posts/line_by_line/</link>
+      <pubDate>Fri, 29 May 2026 00:55:04 -0700</pubDate>
+      <guid>http://localhost:1313/posts/line_by_line/</guid>
+      <description>&lt;h1 id=&#34;ancient-history&#34;&gt;Ancient History&lt;/h1&gt;&#xA;&lt;p&gt;Since I talked about building things last time, it&amp;rsquo;s only fair I share the things I&amp;rsquo;ve been working on. A lot recently has been inspired by old tech.&#xA;Some of it is probably nostalgia for an era I didn&amp;rsquo;t really get to experience, but some of it is genuine delight. Lately I&amp;rsquo;ve been excited by the&#xA;cutting edge of early-90s internet - the MUCK.&lt;/p&gt;&#xA;&lt;p&gt;The hell is that? Well, it&amp;rsquo;s a less grind-oriented variant of the multi-user dungeon (MUD).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
