@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Briar Patch</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://briar-patch.neocities.org/tags/</link>
     <description>Recent content in Tags on Briar Patch</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jun 2026 22:27:41 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://briar-patch.neocities.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
-      <link>http://localhost:1313/tags/ai/</link>
+      <link>https://briar-patch.neocities.org/tags/ai/</link>
       <pubDate>Mon, 01 Jun 2026 22:27:41 -0700</pubDate>
-      <guid>http://localhost:1313/tags/ai/</guid>
+      <guid>https://briar-patch.neocities.org/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>LLMs</title>
-      <link>http://localhost:1313/tags/llms/</link>
+      <link>https://briar-patch.neocities.org/tags/llms/</link>
       <pubDate>Mon, 01 Jun 2026 22:27:41 -0700</pubDate>
-      <guid>http://localhost:1313/tags/llms/</guid>
+      <guid>https://briar-patch.neocities.org/tags/llms/</guid>
       <description></description>
     </item>
     <item>
       <title>Rant</title>
-      <link>http://localhost:1313/tags/rant/</link>
+      <link>https://briar-patch.neocities.org/tags/rant/</link>
       <pubDate>Mon, 01 Jun 2026 22:27:41 -0700</pubDate>
-      <guid>http://localhost:1313/tags/rant/</guid>
+      <guid>https://briar-patch.neocities.org/tags/rant/</guid>
       <description></description>
     </item>
     <item>
       <title>C&#43;&#43;</title>
-      <link>http://localhost:1313/tags/c&#43;&#43;/</link>
+      <link>https://briar-patch.neocities.org/tags/c&#43;&#43;/</link>
       <pubDate>Fri, 29 May 2026 00:55:04 -0700</pubDate>
-      <guid>http://localhost:1313/tags/c&#43;&#43;/</guid>
+      <guid>https://briar-patch.neocities.org/tags/c&#43;&#43;/</guid>
       <description></description>
     </item>
     <item>
       <title>MUCK</title>
-      <link>http://localhost:1313/tags/muck/</link>
+      <link>https://briar-patch.neocities.org/tags/muck/</link>
       <pubDate>Fri, 29 May 2026 00:55:04 -0700</pubDate>
-      <guid>http://localhost:1313/tags/muck/</guid>
+      <guid>https://briar-patch.neocities.org/tags/muck/</guid>
       <description></description>
     </item>
     <item>
       <title>Projects</title>
-      <link>http://localhost:1313/tags/projects/</link>
+      <link>https://briar-patch.neocities.org/tags/projects/</link>
       <pubDate>Fri, 29 May 2026 00:55:04 -0700</pubDate>
-      <guid>http://localhost:1313/tags/projects/</guid>
+      <guid>https://briar-patch.neocities.org/tags/projects/</guid>
       <description></description>
     </item>
     <item>
       <title>Retro</title>
-      <link>http://localhost:1313/tags/retro/</link>
+      <link>https://briar-patch.neocities.org/tags/retro/</link>
       <pubDate>Fri, 29 May 2026 00:55:04 -0700</pubDate>
-      <guid>http://localhost:1313/tags/retro/</guid>
+      <guid>https://briar-patch.neocities.org/tags/retro/</guid>
       <description></description>
     </item>
     <item>
       <title>Rust</title>
-      <link>http://localhost:1313/tags/rust/</link>
+      <link>https://briar-patch.neocities.org/tags/rust/</link>
       <pubDate>Fri, 29 May 2026 00:55:04 -0700</pubDate>
-      <guid>http://localhost:1313/tags/rust/</guid>
+      <guid>https://briar-patch.neocities.org/tags/rust/</guid>
       <description></description>
     </item>
     <item>
       <title>Intro</title>
-      <link>http://localhost:1313/tags/intro/</link>
+      <link>https://briar-patch.neocities.org/tags/intro/</link>
       <pubDate>Wed, 20 May 2026 21:59:39 -0700</pubDate>
-      <guid>http://localhost:1313/tags/intro/</guid>
+      <guid>https://briar-patch.neocities.org/tags/intro/</guid>
       <description></description>
     </item>
     <item>
       <title>Musing</title>
-      <link>http://localhost:1313/tags/musing/</link>
+      <link>https://briar-patch.neocities.org/tags/musing/</link>
       <pubDate>Wed, 20 May 2026 21:59:39 -0700</pubDate>
-      <guid>http://localhost:1313/tags/musing/</guid>
+      <guid>https://briar-patch.neocities.org/tags/musing/</guid>
       <description></description>
     </item>
   </channel>

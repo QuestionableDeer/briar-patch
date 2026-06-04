@@ -1,4 +1,4 @@
-baseurl = "https://example.com/"
+baseurl = "https://briar-patch.neocities.org/"
 languageCode = "en-us"
 theme = 'terminal'
 pagination.pagerSize = 5

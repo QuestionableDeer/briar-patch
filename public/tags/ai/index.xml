@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI on Briar Patch</title>
-    <link>http://localhost:1313/tags/ai/</link>
+    <link>https://briar-patch.neocities.org/tags/ai/</link>
     <description>Recent content in AI on Briar Patch</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jun 2026 22:27:41 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://briar-patch.neocities.org/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LLMs Are Bad at Software</title>
-      <link>http://localhost:1313/posts/bad_engineer_llms/</link>
+      <link>https://briar-patch.neocities.org/posts/bad_engineer_llms/</link>
       <pubDate>Mon, 01 Jun 2026 22:27:41 -0700</pubDate>
-      <guid>http://localhost:1313/posts/bad_engineer_llms/</guid>
+      <guid>https://briar-patch.neocities.org/posts/bad_engineer_llms/</guid>
       <description>&lt;p&gt;I am incredibly tired of &amp;ldquo;reasonable&amp;rdquo; takes about LLMs being used to develop software. &amp;ldquo;Well, they&amp;rsquo;re useful for-&amp;rdquo; No! They&amp;rsquo;re&#xA;unethical plagiarism machines that exploit some of our worst addictive impulses while being trained to flatter us so we&amp;rsquo;ll&#xA;spend more time and money on an ecologically destructive and inefficient method of approximating text sequences. They are&#xA;insidious and I&amp;rsquo;m going to lay out how they screw up your coding and your critical thinking in all sorts of ways.&lt;/p&gt;</description>
     </item>
   </channel>
