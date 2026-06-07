@@ -6,8 +6,15 @@
     <description>Recent content in Projects on Briar Patch</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 May 2026 00:55:04 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 18:23:35 -0700</lastBuildDate>
     <atom:link href="https://briar-patch.neocities.org/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Something Nicer</title>
+      <link>https://briar-patch.neocities.org/posts/mpi_parser/</link>
+      <pubDate>Sat, 06 Jun 2026 18:23:35 -0700</pubDate>
+      <guid>https://briar-patch.neocities.org/posts/mpi_parser/</guid>
+      <description>&lt;p&gt;I realize I keep bouncing between screeds and fun little project summaries like a meth-addled squirrel, but&#xA;I don&amp;rsquo;t want everything I write to be depressing or angry. It would be far too easy to do that, in all honesty,&#xA;so I&amp;rsquo;m making myself look on the bright side.&lt;/p&gt;&#xA;&lt;p&gt;In this case, you might remember me saying something about the flexibility of MUCK descriptions in my &lt;a href=&#34;../line_by_line&#34;&gt;post&lt;/a&gt;&#xA;about the line editor project. It went a bit like this:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Line by line</title>
       <link>https://briar-patch.neocities.org/posts/line_by_line/</link>
