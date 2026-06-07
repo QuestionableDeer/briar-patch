@@ -2,57 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://briar-patch.neocities.org/</loc>
     <lastmod>2026-06-06T18:23:35-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/c&#43;&#43;/</loc>
+    <loc>https://briar-patch.neocities.org/tags/c&#43;&#43;/</loc>
     <lastmod>2026-06-06T18:23:35-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/muck/</loc>
+    <loc>https://briar-patch.neocities.org/tags/muck/</loc>
     <lastmod>2026-06-06T18:23:35-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://briar-patch.neocities.org/posts/</loc>
     <lastmod>2026-06-06T18:23:35-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/projects/</loc>
+    <loc>https://briar-patch.neocities.org/tags/projects/</loc>
     <lastmod>2026-06-06T18:23:35-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/retro/</loc>
+    <loc>https://briar-patch.neocities.org/tags/retro/</loc>
     <lastmod>2026-06-06T18:23:35-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/mpi_parser/</loc>
+    <loc>https://briar-patch.neocities.org/posts/mpi_parser/</loc>
     <lastmod>2026-06-06T18:23:35-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://briar-patch.neocities.org/tags/</loc>
     <lastmod>2026-06-06T18:23:35-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ai/</loc>
+    <loc>https://briar-patch.neocities.org/tags/ai/</loc>
     <lastmod>2026-06-01T22:27:41-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/llms/</loc>
+    <loc>https://briar-patch.neocities.org/tags/llms/</loc>
     <lastmod>2026-06-01T22:27:41-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/bad_engineer_llms/</loc>
+    <loc>https://briar-patch.neocities.org/posts/bad_engineer_llms/</loc>
     <lastmod>2026-06-01T22:27:41-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/rant/</loc>
+    <loc>https://briar-patch.neocities.org/tags/rant/</loc>
     <lastmod>2026-06-01T22:27:41-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/line_by_line/</loc>
+    <loc>https://briar-patch.neocities.org/posts/line_by_line/</loc>
     <lastmod>2026-05-29T00:55:04-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/rust/</loc>
+    <loc>https://briar-patch.neocities.org/tags/rust/</loc>
     <lastmod>2026-05-29T00:55:04-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/get_weird/</loc>
+    <loc>https://briar-patch.neocities.org/posts/get_weird/</loc>
     <lastmod>2026-05-20T21:59:39-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/intro/</loc>
+    <loc>https://briar-patch.neocities.org/tags/intro/</loc>
     <lastmod>2026-05-20T21:59:39-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/musing/</loc>
+    <loc>https://briar-patch.neocities.org/tags/musing/</loc>
     <lastmod>2026-05-20T21:59:39-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://briar-patch.neocities.org/categories/</loc>
   </url>
 </urlset>

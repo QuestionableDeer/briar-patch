@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Briar Patch</title>
-    <link>http://localhost:1313/tags/projects/</link>
+    <link>https://briar-patch.neocities.org/tags/projects/</link>
     <description>Recent content in Projects on Briar Patch</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Jun 2026 18:23:35 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://briar-patch.neocities.org/tags/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Something Nicer</title>
-      <link>http://localhost:1313/posts/mpi_parser/</link>
+      <link>https://briar-patch.neocities.org/posts/mpi_parser/</link>
       <pubDate>Sat, 06 Jun 2026 18:23:35 -0700</pubDate>
-      <guid>http://localhost:1313/posts/mpi_parser/</guid>
+      <guid>https://briar-patch.neocities.org/posts/mpi_parser/</guid>
       <description>&lt;p&gt;I realize I keep bouncing between screeds and fun little project summaries like a meth-addled squirrel, but&#xA;I don&amp;rsquo;t want everything I write to be depressing or angry. It would be far too easy to do that, in all honesty,&#xA;so I&amp;rsquo;m making myself look on the bright side.&lt;/p&gt;&#xA;&lt;p&gt;In this case, you might remember me saying something about the flexibility of MUCK descriptions in my &lt;a href=&#34;../line_by_line&#34;&gt;post&lt;/a&gt;&#xA;about the line editor project. It went a bit like this:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Line by line</title>
-      <link>http://localhost:1313/posts/line_by_line/</link>
+      <link>https://briar-patch.neocities.org/posts/line_by_line/</link>
       <pubDate>Fri, 29 May 2026 00:55:04 -0700</pubDate>
-      <guid>http://localhost:1313/posts/line_by_line/</guid>
+      <guid>https://briar-patch.neocities.org/posts/line_by_line/</guid>
       <description>&lt;h1 id=&#34;ancient-history&#34;&gt;Ancient History&lt;/h1&gt;&#xA;&lt;p&gt;Since I talked about building things last time, it&amp;rsquo;s only fair I share the things I&amp;rsquo;ve been working on. A lot recently has been inspired by old tech.&#xA;Some of it is probably nostalgia for an era I didn&amp;rsquo;t really get to experience, but some of it is genuine delight. Lately I&amp;rsquo;ve been excited by the&#xA;cutting edge of early-90s internet - the MUCK.&lt;/p&gt;&#xA;&lt;p&gt;The hell is that? Well, it&amp;rsquo;s a less grind-oriented variant of the multi-user dungeon (MUD).&lt;/p&gt;</description>
     </item>
   </channel>
