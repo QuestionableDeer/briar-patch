@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>LLMs on Briar Patch</title>
-    <link>https://briar-patch.neocities.org/tags/llms/</link>
-    <description>Recent content in LLMs on Briar Patch</description>
+    <title>Work on Briar Patch</title>
+    <link>https://briar-patch.neocities.org/tags/work/</link>
+    <description>Recent content in Work on Briar Patch</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Jun 2026 13:35:25 -0700</lastBuildDate>
-    <atom:link href="https://briar-patch.neocities.org/tags/llms/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://briar-patch.neocities.org/tags/work/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Gun to Your Head</title>
       <link>https://briar-patch.neocities.org/posts/gun_to_your_head/</link>
       <pubDate>Sun, 07 Jun 2026 13:35:25 -0700</pubDate>
       <guid>https://briar-patch.neocities.org/posts/gun_to_your_head/</guid>
       <description>&lt;h1 id=&#34;we-live-in-a-society&#34;&gt;We Live in a Society&lt;/h1&gt;&#xA;&lt;p&gt;While I think I&amp;rsquo;ve made my &lt;a href=&#34;../bad_engineer_llms&#34;&gt;position&lt;/a&gt; on voluntarily using LLMs for software engineering&#xA;pretty clear, I realize that not everyone has the luxury of choice in our current corporate environment. In fact,&#xA;I&amp;rsquo;m in that boat myself, with management breathing down my neck to show some sort of participation in the LLM&#xA;craze.&lt;/p&gt;&#xA;&lt;p&gt;As a result, I&amp;rsquo;ve spent a lot of time thinking about how someone whose career may be tied to an AI mandate outside&#xA;their control can survive the current era without totally compromising their values.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>LLMs Are Bad at Software</title>
-      <link>https://briar-patch.neocities.org/posts/bad_engineer_llms/</link>
-      <pubDate>Mon, 01 Jun 2026 22:27:41 -0700</pubDate>
-      <guid>https://briar-patch.neocities.org/posts/bad_engineer_llms/</guid>
-      <description>&lt;p&gt;I am incredibly tired of &amp;ldquo;reasonable&amp;rdquo; takes about LLMs being used to develop software. &amp;ldquo;Well, they&amp;rsquo;re useful for-&amp;rdquo; No! They&amp;rsquo;re&#xA;unethical plagiarism machines that exploit some of our worst addictive impulses while being trained to flatter us so we&amp;rsquo;ll&#xA;spend more time and money on an ecologically destructive and inefficient method of approximating text sequences. They are&#xA;insidious and I&amp;rsquo;m going to lay out how they screw up your coding and your critical thinking in all sorts of ways.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

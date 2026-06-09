@@ -6,8 +6,15 @@
     <description>Recent content on Briar Patch</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Jun 2026 18:23:35 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 13:35:25 -0700</lastBuildDate>
     <atom:link href="https://briar-patch.neocities.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Gun to Your Head</title>
+      <link>https://briar-patch.neocities.org/posts/gun_to_your_head/</link>
+      <pubDate>Sun, 07 Jun 2026 13:35:25 -0700</pubDate>
+      <guid>https://briar-patch.neocities.org/posts/gun_to_your_head/</guid>
+      <description>&lt;h1 id=&#34;we-live-in-a-society&#34;&gt;We Live in a Society&lt;/h1&gt;&#xA;&lt;p&gt;While I think I&amp;rsquo;ve made my &lt;a href=&#34;../bad_engineer_llms&#34;&gt;position&lt;/a&gt; on voluntarily using LLMs for software engineering&#xA;pretty clear, I realize that not everyone has the luxury of choice in our current corporate environment. In fact,&#xA;I&amp;rsquo;m in that boat myself, with management breathing down my neck to show some sort of participation in the LLM&#xA;craze.&lt;/p&gt;&#xA;&lt;p&gt;As a result, I&amp;rsquo;ve spent a lot of time thinking about how someone whose career may be tied to an AI mandate outside&#xA;their control can survive the current era without totally compromising their values.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Something Nicer</title>
       <link>https://briar-patch.neocities.org/posts/mpi_parser/</link>

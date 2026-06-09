@@ -1,0 +1,332 @@
++++
+title = "A Gun to Your Head"
+date = "2026-06-07T13:35:25-07:00"
+#dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
+author = "Briar"
+#authorTwitter = "" #do not include @
+#cover = ""
+tags = ["Advice", "AI", "LLMs", "Work"]
+keywords = ["LLMs", "Software"]
+description = "Making it out of the AI era."
+showFullContent = false
+readingTime = false
+hideComments = false
++++
+
+# We Live in a Society 
+
+While I think I've made my [position](../bad_engineer_llms) on voluntarily using LLMs for software engineering
+pretty clear, I realize that not everyone has the luxury of choice in our current corporate environment. In fact,
+I'm in that boat myself, with management breathing down my neck to show some sort of participation in the LLM
+craze.
+
+As a result, I've spent a lot of time thinking about how someone whose career may be tied to an AI mandate outside
+their control can survive the current era without totally compromising their values.
+
+I believe that those of us with mortgages to pay or families to support can draw some inspiration from the
+[Simple Sabotage Field Manual](https://www.gutenberg.org/ebooks/26184), originally issued by the United States OSS
+during World War II and recently returned to widespread public attention for reasons I couldn't possibly fathom (\*ahem\*).
+
+With this as a starting point, my goal is to outline some approaches which can hopefully both sow doubt about the
+long-term viability of an LLM-centric strategy within your organization, as well as build up useful artifacts for the
+future. After all, it's not just LLMs that can read documentation...
+
+# Disclaimer
+
+First up, I want to be completely transparent about one thing:
+
+THIS DOCUMENT \*DOES NOT\* QUALIFY AS A MITIGATION OF THE WIDESPREAD ENVIRONMENTAL AND SOCIAL HARMS OF GENERATIVE AI
+
+It should only be understood as an attempt to identify the lesser of two evils for those currently working in a field
+regrettably dominated by AI psychosis among leadership. In all work where you have the option, you should avoid LLM tools 
+because they destroy the planet, steal from your peers, and make you worse.
+
+This is harm reduction, not a guide to new workflows.
+
+# Organization
+
+The remainder of this post is laid out as a set of categories of roughly ascending intensity in management demands regarding
+GenAI usage. 
+
+In general, the advice for all preceding categories should also apply to later ones, but the more your
+organization demands proof of AI usage in your work, the further you'll have to push these guidelines to remain complaint. Even
+so, I would encourage you to consistently look for opportunities to go against the grain and undermine bad practices
+at all levels, though your ability to do so obviously depends on both organizational and personal factors.
+
+# Level 1: You Need to Participate
+
+This might be the simplest sort of mandate, where employees are expected to "keep up" with GenAI without specific guidance
+being given. In this case, it should be possible to comply with the letter of the law without actually using any LLM tooling
+at all.
+
+### Organize/Attend Discussion Groups
+
+Probably the easiest way to signal participation without actually engaging with the underlying models is to join in any
+training sessions or brown bag talks on the subject offered by your organization. The information presented may not be 
+particularly useful if you intend to avoid the tooling, but these forums offer a chance to push back slightly, in the form of asking questions. 
+
+I recommend taking a page from the internet troll playbook by framing criticism as if it's coming from a potential 
+enthusiast with genuine concerns. Some good talking points to bring up could include:
+
+- Security issues due to prompt injection
+- Reliability concerns (e.g. Claude deleting production databases and backups)
+- Cost concerns, especially now that API pricing is becoming the corporate norm
+
+If you want to take this further, consider organizing your own discussion group around the topic of LLMs. This shows 
+initiative while also allowing you to construct an unflattering framing from the get-go. 
+
+If you decide to do this, make sure to include drawbacks of the technology as prominently as possible, while leaving it to 
+other speakers to provide the exuberance. You can also try to loosen the focus on GenAI by connecting current technology 
+with its predecessors and hosting sessions on non-generative ML technologies too. With a bit of creative wandering in the discussion 
+topics, you might be able to spend the majority of your time on largely unrelated issues that prove more valuable to 
+developers in the long run.
+
+### Document Code, APIs, and Processes
+
+Possibly the most infuriating part of the LLM era for me personally is that managers who have spent years deferring and
+deprioritizing documentation of complex codebases will now bend over backward to have their employees write up detailed
+process explainers for GenAI agents. Where I work, I've seen the equivalent of major onboarding documents created out
+of thin air because they're meant to help replace people, rather than train them...
+
+Still, we can take advantage of that perverse impulse. I'll bet money you can think of places and processes in your
+codebase that are in dire need of written documentation. Take the time to start creating it, and justify the effort
+as helping agents interact more effectively with the code.
+
+Of course, just because it's in a Markdown file in some `/agents` folder doesn't mean people can't also read it. With
+luck, you'll have a shiny new set of useful documents ready for junior engineers and newcomers once the AI craze is over,
+and in the meantime you'll get credit for being a team player.
+
+### Develop Useful Scripts
+
+This is largely the programmatic corollary to the previous section. There are probably tasks that could be better automated
+in your day-to-day work, and even refactors that would help increase the surface area for future automations. 
+
+Try tackling these under the GenAI banner, pointing out that providing deterministic tools to agents increases their reliability and
+reduces token spend.
+
+And of course, should agents fall out of favor, nothing stops a human from running `bash script.sh`...
+
+### Do It for Them
+
+The general theme in this section is that in places where the nanny impulse of upper management toward total AI usage
+hasn't progressed too far, we can get away with a lot of useful work at the intersection of human and LLM capabilities.
+In that respect, the fact that the models work with natural language is a boon, since "agentic" training materials can be
+repurposed toward human ends with effectively zero overhead.
+
+I'd encourage you to explore how far you can stretch this idea, stealing time and clout in the name of AI from leaders who
+wouldn't permit it for the benefit of some mere employees. 
+
+Honestly, it serves them right.
+
+# Level 2: You Need to Use Tokens
+
+Unfortunately, positions where you can squeak by without actually engaging with the models are likely to be rare at companies
+that have embraced the LLM craze. I expect most places will want to see some degree of interaction with LLM agents, harnesses, or frameworks
+that can be measured on a dashboard. 
+
+In that case, we'll have to go a little further, but I think the core ideas of the
+preceding section can still be useful to shore up your case as a team player.
+
+### Hello, Dystopia
+
+The simplest way of showing up on the most brain-dead version of engagment tracker apps is to just issue an occasional prompt to the 
+the model in question. 
+
+A shocking number of employers are still working at this stage, so the easiest way to get counted is to bid 
+the clanker good morning each day and ignore any output.
+
+### Functional Sharepoint
+
+If your manager starts to get suspicious that your participation is too consistent from your daily "hello", it may be time to expand 
+your usage in minor ways to add some jitter to the data.
+
+> As a quick aside, another major pet peeve of mine in the GenAI era is that Microsoft has dumped so much effort into indexing and tokenizing 
+Sharepoint contents, only to feed them to an LLM. If they had just done the same amount of work and plugged the results into a traditional 
+information retrieval system, Sharepoint might actually be functional.
+
+How is my personal Sharepoint grudge there relevant? 
+
+The majority of workplaces probably have at least some data stored on Sharepoint, 
+with the odds increasing roughly in proportion to the size of the company. Try using whatever LLM you're mandated to interact with to find documents
+you can't quite remember the path to on Sharepoint - this is especially effective if you're on Copilot, which benefits from
+Microsoft's ecosystem integration.
+
+If you find what you're looking for, great. If not, relatively little harm done. Either way, that's engagement.
+
+### Reviewer Ex Machina
+
+In some cases, your boss may be looking for significant token usage, more than you can manage with the LLM equivalent of a
+mouse jiggler. In that case, my recommendation is to take a page from the `curl` developers - their stance appears to be that
+while LLMs aren't reliable for major code generation, they do provide an additional source of review for catching bugs and
+security holes.
+
+Applying this idea to your daily work could look like asking the LLM to review your PRs before you submit them, calling
+out potential issues. This will require more tokens to perform, and it has the benefit that arguing with reviewers comes
+naturally, so you're less likely to turn off your brain and let the machine attempt to think for you.
+
+If you really want to stretch your usage, consider using the AI to generate agent files governing a dedicated reviewer
+persona. You could even do this for different types of review: security, performance, code style, etc.
+
+Similar to Sharepoint search, you can leverage the fact that for review, 80% right is often good enough. If the LLM misses something, 
+you should still have human review to help catch it, and if it turns up false positives, they're easy enough to ignore. Any genuine
+issues it discovers are a win that can help you make your work better, rather than gutting its quality.
+
+# Level 3: You Need to Write Code
+
+I'm not sure what the exact breakdown is between companies that just want to see you using tokens and those that actually do some
+kind of follow-up about what the tokens are being used on, but in case you *are* facing a mandate to actually produce LLM-generated
+code, I think there are a few strategies available for mitigating the worst of it.
+
+### Deterministic Scripts
+
+One option is to use AI to generate scripts that can help streamline and automate your workflow, or even a portion of your company's
+processes. These are usually shorter and more focused than production code, so they should be easier to thoroughly test and review.
+
+If the scripts are for personal workflows and remain outside the official repo, the stakes are lower, and if something goes wrong 
+you'll likely know where to start looking.
+
+Likewise, since the AI doesn't need to be involved in executing the script, issues with hallucination can be confined the the initial code generation.
+In extreme cases, you can treat that output as a rough prototype, and further iterate on it yourself to shape it into something useful.
+
+### Tedious But Easy
+
+For small-scale refactorings and changes that are just plumbing values around, the scope is likely tight enough that you can successfully monitor
+the LLM output and be fairly confident in the results. I doubt it actually saves much labor in the balance of having
+to double-check the changes, but it might let you trade one form of tedium for another you find more palatable.
+
+I do strongly recommend you keep these changes to places that have good existing test coverage though, just in case something slips
+through your notice or knock-on effects from refactoring aren't immediately clear.
+
+### Make That Bitch a Dashboard
+
+Bitches - ahem - \*executives\* love dashboards. Let the LLM vibecode you up some kind of React or Electron interface, and leave the actual
+analysis to well-known formulas and queries embedded in the underlying processing engine. So long as it stays internal, any minor
+UI bugs won't be critical, and if you keep the guts of it deterministic and well-verified, you can wind up with a fairly useful tool.
+
+I'd still try to limit this to workflows that have existed for a while though, so you can run the output against historical data and confirm
+that it actually makes sense. 
+
+However, I would *not* under any circumstances use the LLMs to perform any part of the analysis itself (yes, including
+summarizing the data). Whatever their linguistic capabilities might be, they do not understand numbers, and any calculational
+improvements so far reported appear to have been the result of stapling on special cases left and right.
+
+You absolutely cannot trust them on this.
+
+On the bright side, a dashboard-heavy approach gives you something shiny and graphical to sit in front of management,
+which may make it seem more impressive. Just try not to get roped into churning these out full-time.
+
+### Antipatterns
+
+I would generally strongly discourage you from using LLMs to generate documentation. I understand the temptation, but in my experience,
+I've never been able to get more than a paragraph or two into AI-generated docs before finding serious misrepresentations or outright
+fabricated data. Even supposedly top-of-the-line models *love* to make up performance numbers, and given nothing more than a design
+doc will happily fill in pages of glorious improvement statistics that could only be legitimate if derived from actually running 
+(the nonexistent) code in production.
+
+I also can't stress enough that LLMs should NOT be used to write tests. Tests are your lifeline if the bosses are shoveling
+mandatory LLM slop into your repos, and generating test cases the same way will only close the loop and spawn a truly horrific
+ouroboros in your codebase.
+
+Beyond those two major pitfalls, I think it's dangerous to entrust too large a refactor to GenAI, despite how much it's pushed as
+a way to clear items from the backlog. A rule of thumb is that anything you'd feel uneasy about handing off to a recently-hired junior 
+engineer should likewise be kept far away from LLMs.
+
+# Level 4: You Need to Generate PRs
+
+This isn't exactly a superset of the previous section, since PRs can include things like documentation or new agent files. Depending
+on what your management considers to be "code", you may be able to draw on ideas in this section to cope with a coding mandate and
+avoid the risk of longer-term damage to the parts of your software that are actually executing in production. 
+
+Likewise, some of the previous ideas for simple code generation might be candidates for PR submission, but
+in my view you should try to limit yourself to external helper scripts and standalone tool creation for as long as possible so 
+that future generations have less to try and roll back in the repo itself when things inevitably go wrong.
+
+Our general tactic here will be to focus on stretching the technical definition of what can qualify as an LLM-assisted PR, alongside
+maximal yak shaving when we find good candidates.
+
+### Glorified Spellcheck
+
+There's always some tidying up of comments to be done, and in theory LLMs should be decent at this. If you're looking for a simple PR
+that shouldn't affect actual code much, trying assigning an agent to do spelling and grammar correction for a subset of files. I
+would limit the scope, at least initially, just so you can make sure the semantics of important comments aren't getting changed
+via rewording.
+
+Provided you don't have load-bearing comments, the diffs should be able to prove that nothing executable has changed, but you
+still get a PR out of the deal.
+
+### Agent4Agent
+
+If one agent is good (as far as your boss knows), then more should be better. You may be able to take advantage of the clamor for
+agentic tooling to get lots of PRs in that don't actually directly affect your code. The most obvious example is to submit agent
+definition files or agent skills to the repo, which all basically boil down to some Frankenstein of roleplay and sternly-worded
+email to try and keep the AI on track.
+
+Whether the hype around it has any bearing on actual performance doesn't particularly matter for our purposes, because you can
+use the LLM to write these persona files for other LLM instances, and when you push it all onto `main` your manager counts it 
+as an AI-assisted PR.
+
+If you really want to give the yak a buzz cut, consider signing up to create MCP servers or other agent-adjacent tooling. While
+it won't outlive the LLM hype if (hopefully when) it dies off, those servers should be entirely disposable without doing harm
+to your code. And since it's helping agents do their thing, you can claim to be accelerating your coworkers' efforts.
+
+Hopefully it's becoming clear by now how we can turn the grift against itself, at least on the small scale of day-to-day work.
+
+### Minimal Contribution, Maximal Fan-Out
+
+If management absolutely, positively insists on seeing real executable code being modified by LLMs under your supervision, my
+best advice is to focus on the smallest and simplest changes you can. The ideal case is something like refactoring old code
+to better conform to current style guides, especially if it's the kind of thing you could also accomplish via regex at the
+command line (hi `sed`...), since that provides a quick, independent check on the output.
+
+Another option is to use it for small functions with limited scope, the kind of helper code that fits on a single screen and
+doesn't touch anything that isn't directly passed in. 
+
+Additionally, depending on how your AI engagement monitors count things, you may be able to do something similar
+with LLM-assisted line completion, where you can validate the result as it's being generated.
+
+With any of these approaches, try to make that "assistance" count for more by spreading out the PRs thinner than you otherwise
+might. Since the suits are probably looking at things like "total number of PRs with AI in them", splitting that multi-file
+formatting cleanup into two or three submissions makes your numbers better without requiring you to generate additional dodgy code.
+
+# Spiritual Carbon Credits
+
+Ignoring for now whether actual carbon credits accomplish their nominal goal, I'd like to use the metaphor to think a bit
+about how we can all sleep better at night.
+
+If you're like me, even minimal usage of LLMs in place of actually writing and understanding code yourself leaves a bad taste in your
+mouth. In some ways, that taste might even be worse knowing you're doing it with a gun to your head. 
+
+So what can we do to try and tip the balance toward the good?
+
+My proposal is to find something in the community that could use real, human help and pitch in there. Certainly lots of open
+source projects are suffering under a deluge of slop and could use a hand filtering genuine PRs and working on real features and bug
+reports. There's also a growing need to find replacements for the cases where foundational tools have gotten infected with the
+AI slop mindset - think of the push to bring `openrsync` up to speed after the debacle with original-flavor `rsync`.
+
+Of course, it doesn't have to be systems code or widely-used tools. I'm personally pretty fond of [OpenRCT2](https://github.com/OpenRCT2/OpenRCT2)
+and still proud of my (minor) contributions toward its success because it brings me and others a lot of enjoyment.
+
+Whether it's big or small, helping out with community projects builds your network of developers likewise opposed to the
+eternal sloppification of our industry, and it brings a little more joy and peace of mind to those who benefit from the results. 
+If we're forced to accept part of the devil's bargain LLMs offer in order to keep our jobs, I hope that working together and building
+free, robust, peer-to-peer solutions for pressing problems will save our souls in the end.
+
+In the meantime, we just have to hope we're in more of a Goethe than a Marlowe production.
+
+# The Good News
+
+I admit, thinking about how to best pull one over on your bosses and your coworkers while everyone is breathing down your neck
+to do something you know is wrong makes for grim reading. That's why I want to close out on a hopeful note.
+
+I believe we're starting to see pushback against rampant token burn from the people watching the money in big corporations. We keep
+hearing about a struggle to tie AI spend to ROI and the more skeptical CFOs and COOs become, the closer we get to a world
+where the bubble pops and the worst excesses start to fade. 
+
+More than that, it appears that data center construction to support these models is slowing, running up on physical limits to the
+pace of construction, and there may also be real limits on available capital behind the scenes. 
+
+I don't know when or how or even if all this finally comes back down to earth so that those of us who care about making good products
+can get back to doing our damn jobs, but I am increasingly optimistic about the possibility that our careers will live to see better days. 
+
+In the meantime, I'm going to be doing my best to put the ideas here into practice, limiting harm from GenAI where I can, and
+doing what I'm able to help others do the same.

@@ -2,16 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://briar-patch.neocities.org/posts/gun_to_your_head/</loc>
+    <lastmod>2026-06-07T13:35:25-07:00</lastmod>
+  </url><url>
+    <loc>https://briar-patch.neocities.org/tags/advice/</loc>
+    <lastmod>2026-06-07T13:35:25-07:00</lastmod>
+  </url><url>
+    <loc>https://briar-patch.neocities.org/tags/ai/</loc>
+    <lastmod>2026-06-07T13:35:25-07:00</lastmod>
+  </url><url>
     <loc>https://briar-patch.neocities.org/</loc>
-    <lastmod>2026-06-06T18:23:35-07:00</lastmod>
+    <lastmod>2026-06-07T13:35:25-07:00</lastmod>
+  </url><url>
+    <loc>https://briar-patch.neocities.org/tags/llms/</loc>
+    <lastmod>2026-06-07T13:35:25-07:00</lastmod>
+  </url><url>
+    <loc>https://briar-patch.neocities.org/posts/</loc>
+    <lastmod>2026-06-07T13:35:25-07:00</lastmod>
+  </url><url>
+    <loc>https://briar-patch.neocities.org/tags/</loc>
+    <lastmod>2026-06-07T13:35:25-07:00</lastmod>
+  </url><url>
+    <loc>https://briar-patch.neocities.org/tags/work/</loc>
+    <lastmod>2026-06-07T13:35:25-07:00</lastmod>
   </url><url>
     <loc>https://briar-patch.neocities.org/tags/c&#43;&#43;/</loc>
     <lastmod>2026-06-06T18:23:35-07:00</lastmod>
   </url><url>
     <loc>https://briar-patch.neocities.org/tags/muck/</loc>
-    <lastmod>2026-06-06T18:23:35-07:00</lastmod>
-  </url><url>
-    <loc>https://briar-patch.neocities.org/posts/</loc>
     <lastmod>2026-06-06T18:23:35-07:00</lastmod>
   </url><url>
     <loc>https://briar-patch.neocities.org/tags/projects/</loc>
@@ -22,15 +40,6 @@
   </url><url>
     <loc>https://briar-patch.neocities.org/posts/mpi_parser/</loc>
     <lastmod>2026-06-06T18:23:35-07:00</lastmod>
-  </url><url>
-    <loc>https://briar-patch.neocities.org/tags/</loc>
-    <lastmod>2026-06-06T18:23:35-07:00</lastmod>
-  </url><url>
-    <loc>https://briar-patch.neocities.org/tags/ai/</loc>
-    <lastmod>2026-06-01T22:27:41-07:00</lastmod>
-  </url><url>
-    <loc>https://briar-patch.neocities.org/tags/llms/</loc>
-    <lastmod>2026-06-01T22:27:41-07:00</lastmod>
   </url><url>
     <loc>https://briar-patch.neocities.org/posts/bad_engineer_llms/</loc>
     <lastmod>2026-06-01T22:27:41-07:00</lastmod>
