@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TOC on Briar Patch</title>
+    <link>https://briar-patch.neocities.org/tags/toc/</link>
+    <description>Recent content in TOC on Briar Patch</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Jun 2026 23:43:11 -0700</lastBuildDate>
+    <atom:link href="https://briar-patch.neocities.org/tags/toc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Growing Into the Role</title>
+      <link>https://briar-patch.neocities.org/posts/growing_into_the_role/</link>
+      <pubDate>Sat, 20 Jun 2026 23:43:11 -0700</pubDate>
+      <guid>https://briar-patch.neocities.org/posts/growing_into_the_role/</guid>
+      <description>&lt;h1 id=&#34;intro&#34;&gt;Intro&lt;/h1&gt;&#xA;&lt;p&gt;For a long time now, I&amp;rsquo;ve been thinking about how I would structure something like a course on software engineering. One&#xA;thing that&amp;rsquo;s important to me is to emphasize practical aspects and &amp;ldquo;common sense&amp;rdquo; tools and techniques, because often&#xA;what ought to be common really isn&amp;rsquo;t.&lt;/p&gt;&#xA;&lt;p&gt;I feel that gap even more strongly because I came into writing software from a non-CS background, and in the early days&#xA;it was just a means to an end for me. But flailing around without knowing much about even simple things like version control led to&#xA;way, way too many mistakes and setbacks. In the end, I was almost mad when I found out there were much easier solutions to the problems I&#xA;was having, and since I learned the hard way, the lessons stuck with me that much more strongly.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

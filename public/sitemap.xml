@@ -2,6 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://briar-patch.neocities.org/</loc>
+    <lastmod>2026-06-20T23:53:52-07:00</lastmod>
+  </url><url>
+    <loc>https://briar-patch.neocities.org/tags/course/</loc>
+    <lastmod>2026-06-20T23:53:52-07:00</lastmod>
+  </url><url>
+    <loc>https://briar-patch.neocities.org/tags/engineering/</loc>
+    <lastmod>2026-06-20T23:53:52-07:00</lastmod>
+  </url><url>
+    <loc>https://briar-patch.neocities.org/tags/gitr/</loc>
+    <lastmod>2026-06-20T23:53:52-07:00</lastmod>
+  </url><url>
+    <loc>https://briar-patch.neocities.org/posts/gitr_resources/</loc>
+    <lastmod>2026-06-20T23:53:52-07:00</lastmod>
+  </url><url>
+    <loc>https://briar-patch.neocities.org/posts/</loc>
+    <lastmod>2026-06-20T23:53:52-07:00</lastmod>
+  </url><url>
+    <loc>https://briar-patch.neocities.org/tags/resource-list/</loc>
+    <lastmod>2026-06-20T23:53:52-07:00</lastmod>
+  </url><url>
+    <loc>https://briar-patch.neocities.org/tags/</loc>
+    <lastmod>2026-06-20T23:53:52-07:00</lastmod>
+  </url><url>
+    <loc>https://briar-patch.neocities.org/tags/announcement/</loc>
+    <lastmod>2026-06-20T23:43:11-07:00</lastmod>
+  </url><url>
+    <loc>https://briar-patch.neocities.org/posts/growing_into_the_role/</loc>
+    <lastmod>2026-06-20T23:43:11-07:00</lastmod>
+  </url><url>
+    <loc>https://briar-patch.neocities.org/tags/toc/</loc>
+    <lastmod>2026-06-20T23:43:11-07:00</lastmod>
+  </url><url>
     <loc>https://briar-patch.neocities.org/posts/gun_to_your_head/</loc>
     <lastmod>2026-06-07T13:35:25-07:00</lastmod>
   </url><url>
@@ -11,16 +44,7 @@
     <loc>https://briar-patch.neocities.org/tags/ai/</loc>
     <lastmod>2026-06-07T13:35:25-07:00</lastmod>
   </url><url>
-    <loc>https://briar-patch.neocities.org/</loc>
-    <lastmod>2026-06-07T13:35:25-07:00</lastmod>
-  </url><url>
     <loc>https://briar-patch.neocities.org/tags/llms/</loc>
-    <lastmod>2026-06-07T13:35:25-07:00</lastmod>
-  </url><url>
-    <loc>https://briar-patch.neocities.org/posts/</loc>
-    <lastmod>2026-06-07T13:35:25-07:00</lastmod>
-  </url><url>
-    <loc>https://briar-patch.neocities.org/tags/</loc>
     <lastmod>2026-06-07T13:35:25-07:00</lastmod>
   </url><url>
     <loc>https://briar-patch.neocities.org/tags/work/</loc>
