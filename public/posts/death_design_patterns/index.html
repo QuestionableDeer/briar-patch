@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>The Death of Design Patterns :: Briar Patch</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="My hottest take." />
+<meta name="keywords" content="Design Patterns, OOP, Architecture" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://briar-patch.neocities.org/posts/death_design_patterns/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/code.min.c4581949edab7810737609fc5568852bcd908945f14561e366dcd2300a370545.css">
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/syntax.min.a2cc694a9b481f15d41722bffc2cc54eea4c4f74fd9072b0b33253604c22606e.css">
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="https://briar-patch.neocities.org/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="https://briar-patch.neocities.org/favicon.png">
+<link rel="apple-touch-icon" href="https://briar-patch.neocities.org/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="The Death of Design Patterns">
+<meta property="og:description" content="My hottest take." />
+<meta property="og:url" content="https://briar-patch.neocities.org/posts/death_design_patterns/" />
+<meta property="og:site_name" content="Briar Patch" />
+
+  <meta property="og:image" content="https://briar-patch.neocities.org/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2026-07-04 23:46:51 -0700 PDT" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Briar Patch
+  </div>
+</a>
+
+    </div>
+    
+    
+  </div>
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://briar-patch.neocities.org/posts/death_design_patterns/">The Death of Design Patterns</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2026-07-04</time><span class="post-author">Briar</span></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="https://briar-patch.neocities.org/tags/rant/">Rant</a>&nbsp;
+      
+      #<a href="https://briar-patch.neocities.org/tags/oop/">OOP</a>&nbsp;
+      
+      #<a href="https://briar-patch.neocities.org/tags/c&#43;&#43;/">C&#43;&#43;</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>Every now and then, I see <em>Design Patterns</em> floated as a kind of next-step resource for
+programmers after they&rsquo;ve gotten comfortable with a language, typically an object-oriented
+(or at least object-aware) one. I don&rsquo;t particularly have a problem with OOP as a concept,
+though I agree with its critics that inheritance is overused in teaching materials by several
+orders of magnitude.</p>
+<p>But as for <em>Design Patterns</em> itself, I personally think these days that it only serves as a window into
+90s programming philosophy - a historical relic of a bygone age, and one that I&rsquo;m not all
+that interested in revisiting (unlike my passion for <em>Software Tools</em> from the 70s).</p>
+<p>So what gives?</p>
+<h1 id="its-just-abstraction">It&rsquo;s Just Abstraction<a href="#its-just-abstraction" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>The first big failure of the book for me is wallowing in a certain kind of middle-aged 90s
+consultant guy vibe right off the bat by calling these things &ldquo;Design Patterns&rdquo; at all. In
+the intro they go into how the name is drawn from a concept in architecture, and there&rsquo;s nothing
+tedious 90s consultant dudes love more than droning on about architecture as a mark of sophistication.</p>
+<p>I don&rsquo;t know why it&rsquo;s architecture specifically, but I&rsquo;ve seen it more than once and once is
+already more than enough.</p>
+<p>The thing is, we already had a name for &ldquo;common, useful abstractions&rdquo;. We called them &ldquo;useful
+abstractions&rdquo; because that&rsquo;s what they are!</p>
+<p>Giving these things some kind of separate name and requiring you to decipher UML diagrams to
+work with them makes it seem like this is somehow separate from (and conveniently for the consultants,
+more advanced than) just recognizing commonalities and factoring them out or learning from
+well-known solutions popularized by others. Now you have to ask whether or not something is
+a capital-P Pattern, and if so is it in The Book, and if not do you have to make the diagrams yourself
+for it to qualify for the club, or what?</p>
+<p>Not to mention that the concept of abstraction is fundamentally broader - functional programming doesn&rsquo;t do
+~Design Patterns~ but it understands abstraction, and using a common language across paradigms helps you identify
+other useful instances to learn from and incorporate in your own work. Making up artifical categories on a
+whim actively impedes communication and the learning that grows out of it.</p>
+<p>Alas, my own personal linguistic pet peeves are not where the problems end.</p>
+<h1 id="design-antipatterns">Design Antipatterns<a href="#design-antipatterns" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>From a technical standpoint, the biggest body blow against the book is probably that some of the
+patterns identified are actively bad, and others are painfully overused by people eager to do things
+rigidly by the book.</p>
+<p>The worst culprit in the outright antipattern category is probably Singleton, which is just a way to carry over
+global variables from procedural languages like C into pure-OOP ones like Java. Especially in the
+modern era of enforced concurrency, global variables are the root of much suffering.</p>
+<p>Why exactly does the expert&rsquo;s book on good design include this misbegotten creature?</p>
+<p>The runner-up is probably Flyweight - I genuinely do not understand how this is supposed to work. In
+principle, it enables you to be object-oriented all the way down to the most fine-grained level by not
+copying around and re-creating the lowest layers of these micro-objects and instead just passing
+references to them, but on real machines you rapidly run into the problem that references to the Flyweights outweigh
+the resources required to copy around the underlying data anyway!</p>
+<p>The example in the book talks about representing every character in a text editor as objects via this pattern,
+but especially on modern hardware, even a raw pointer to the Flyweight object will consume 8 bytes and will
+cost more space than just copying around UTF-8 characters directly. And that&rsquo;s before you get into the
+overhead of making both the references and the referencee (that&rsquo;s probably not a word&hellip;) into full-blown
+objects with the storage and lifetime overhead involved.</p>
+<p>By far the largest group of patterns guilty of setting bad examples is one that I&rsquo;d consider <em>conditional</em> antipatterns, and these are mostly what I
+think of as the library designer suite in the book. These are patterns like Factory and Builder which are presented as solutions to
+everyday problems, when their real use is decoupling platform-specific implementations from the caller interface.
+There are cases where this comes up in regular application programming, but with a sane set of libraries, that complexity is properly
+encapsulated by the library itself - think of using SDL to make a game that runs on Linux or Windows without
+having to maintain two completely separate stacks of manual window manager code.</p>
+<p>True, if you&rsquo;re the one writing the SDL source code, those design patterns might be helpful, but only a very small minority
+of developers work directly on library design or implementation. Treating narrow-but-useful solutions for one specific
+audience as bread-and-butter abstractions is how you get Java monstrosities like <code>AbstractTestPreconditionConfigurationFactoryManagerFactory</code>.</p>
+<h1 id="too-much-of-a-good-thing">Too Much of a Good Thing<a href="#too-much-of-a-good-thing" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>The over-abstraction encouraged by this kind of wannabe-library approach isn&rsquo;t limited to Java, either. I&rsquo;ve seen real examples where
+practically every piece of a system is required to be accessed through an abstract interface, just in case it needs to change later. The
+net result of preparing for eight varieties of every object in your system when 90% of the time you only ever implement one is that you
+waste developer time and system resources on traversing layer after layer of &ldquo;abstraction&rdquo;.</p>
+<p>Worse, these abstractions are often leaky and you need to know something about the object or method you&rsquo;re really using in order to
+reason about whether or not it&rsquo;s appropriate for the current situation, which completely eliminates the usefulness of an abstract
+interface in the first place!</p>
+<p>Even in the case where you are legitimately adding to the initial implementation with a parallel one, it&rsquo;s easy to get lost in the
+18-layer wedding cake of boilerplate to try and find where and how the actual object used in the program is being selected and instantiated&hellip;</p>
+<p>If premature optimization is the root of all evil in computer science, I think premature abstraction is probably at least a branch on the tree.</p>
+<h1 id="beg-borrow-steal">Beg, Borrow, Steal<a href="#beg-borrow-steal" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Other patterns might not be so completely through the looking glass as to qualify for antipattern status per se, but they amount
+to little more than attempts to smuggle in concepts from other language paradigms. This isn&rsquo;t necessarily bad, but it&rsquo;s a response to the constraints
+of a particular approach to programming rather than some universal principle, so enshrining it as a Big Important Idea seems disingenuous.</p>
+<p>The exemplar here is Command - if you don&rsquo;t have first-class functions, wrapping them as methods on an object you <strong>can</strong> pass around
+freely does give you some of the same execution flexibility that more function-forward languages enjoy. The caveat is that much of the supporting
+infrastructure that makes passing the functions themselves around useful in those other languages is still lacking. In other words, <em>you&rsquo;ll</em>
+still be the one implementing your own custom OOP version of <code>map</code> and <code>reduce</code>.</p>
+<p>This is one of the big reasons to use a multiparadigm language in my opinion - sometimes objects are a good fit, other times you just want a free function.
+Purity can be useful as a way to push an idea to its limits to see what can be learned, but dogmatism in what amounts to tools for solving
+problems will only limit your choices and force you to contort yourself in ugly ways when you run up against something that doesn&rsquo;t fit neatly
+into your crystalline vision of the world. I&rsquo;d argue the state of most modern programming languages supports my point - far and
+away all the major languages used in solving real problems are now multiparadigm, or at least &ldquo;impure&rdquo; by PL nerd standards: Javascript, Python, C++,
+Rust, etc.</p>
+<h1 id="victims-of-their-own-success">Victims of Their Own Success<a href="#victims-of-their-own-success" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>While some concepts genuinely might have been popularized via their inclusion in <em>Design Patterns</em>, the most successful ones were so influential
+that they&rsquo;ve transcended the book completely. The obvious example is probably Iterator - genuinely a useful abstraction within OOP
+as a way to efficiently traverse opaque collections of objects.</p>
+<p>But the core idea of generalizing array indices or pointer arithmetic doesn&rsquo;t really <em>require</em> OOP-style objects to make sense, and the inclusion
+of this concept in pretty much every major language in modern use speaks to its generality and utility. You&rsquo;re just as likely to learn about the
+pattern from reading through your language&rsquo;s standard library (especially if you work in C++) than by looking through the pages of <em>Design Patterns</em>.</p>
+<p>And even in the case of a few standout successes like Iterator, we see the library-centric pitfalls of the book still lurking in our peripheral vision. After all,
+relatively few developers actually need to create a full-on iterator implementation for their projects, they just need to use the libraries that have
+the concept already baked in. Even in the marginal cases where types or classes in the application itself need to be extended with iterator support,
+this typically amounts to implementing an interface, rather than designing a full-strength abstract hierarchy of iterators from the ground up.</p>
+<h1 id="what-should-we-do">What Should We Do?<a href="#what-should-we-do" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>In my view, all these strikes against <em>Design Patterns</em> means we should stop using their &ldquo;design pattern&rdquo; term to describe programming constructs,
+and instead fall back to the more honest description &ldquo;useful abstraction&rdquo; provides. That way, we don&rsquo;t have to get stuck debating if the thing
+we&rsquo;re working with is <em>really</em> a capital-P Pattern or not, or what we need to do to make it qualify as one. We can also easily clarify our designation
+by specifying where and when the abstraction is useful, instead of assuming it must be some kind of totally general catchall across all development
+everywhere (even though we&rsquo;re really just looking at, say, hyper-general library development).</p>
+<p>We should also stop recommending the book to new programmers. This far removed from the OOP fever of the mid-90s, it&rsquo;s just going to confuse them
+and compete with the many other (more important) things they need to pick up as they start writing real code to solve real problems.</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+    
+    
+      <a href="https://briar-patch.neocities.org/posts/gitr_resources/" class="button inline next">
+         [<span class="button__text">GITR: Resources</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
