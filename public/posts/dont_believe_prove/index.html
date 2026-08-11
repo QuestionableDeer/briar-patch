@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Don&#39;t Believe Everything You Prove :: Briar Patch</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="All thrones are false." />
+<meta name="keywords" content="Lean, Formal Proof, Collatz" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://briar-patch.neocities.org/posts/dont_believe_prove/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/code.min.c4581949edab7810737609fc5568852bcd908945f14561e366dcd2300a370545.css">
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/syntax.min.a2cc694a9b481f15d41722bffc2cc54eea4c4f74fd9072b0b33253604c22606e.css">
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="https://briar-patch.neocities.org/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="https://briar-patch.neocities.org/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="https://briar-patch.neocities.org/favicon.png">
+<link rel="apple-touch-icon" href="https://briar-patch.neocities.org/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Don&#39;t Believe Everything You Prove">
+<meta property="og:description" content="All thrones are false." />
+<meta property="og:url" content="https://briar-patch.neocities.org/posts/dont_believe_prove/" />
+<meta property="og:site_name" content="Briar Patch" />
+
+  <meta property="og:image" content="https://briar-patch.neocities.org/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2026-08-10 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Briar Patch
+  </div>
+</a>
+
+    </div>
+    
+    
+  </div>
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://briar-patch.neocities.org/posts/dont_believe_prove/">Don&rsquo;t Believe Everything You Prove</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2026-08-10</time><span class="post-author">Briar</span></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="https://briar-patch.neocities.org/tags/math/">Math</a>&nbsp;
+      
+      #<a href="https://briar-patch.neocities.org/tags/bugs/">Bugs</a>&nbsp;
+      
+      #<a href="https://briar-patch.neocities.org/tags/proof/">Proof</a>&nbsp;
+      
+      #<a href="https://briar-patch.neocities.org/tags/formal-proof/">Formal Proof</a>&nbsp;
+      
+      #<a href="https://briar-patch.neocities.org/tags/rant/">Rant</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>In many ways, this is a companion post to my <a href="../admire_purity">complaint</a> about John Backus&rsquo; Turing lecture. If you travel
+far enough along the smarter-than-thou asshole path, you&rsquo;ll usually find the end of the line somewhere around formal proof methods.</p>
+<p>The idea is that if we can elaborate a proof from a well-verified set of operations and a minimal collection of axioms, the thing
+we&rsquo;re trying to demonstrate <em>has</em> to be correct. It&rsquo;s the ultimate trump card for those seeking a pure, unassailable foundation for
+their program (or, increasingly, their philosophy of life).</p>
+<p>Or is it?</p>
+<p>The problem (for them, at least) is that mathematical proofs are a social construct. Yes, I know this sounds like hippie postmodern
+nothing-is-real-maaaaaaaan bullshit, but they actually acknowledge this right up front in the introductions to most formal verification
+texts, and even a lot of pure math books too!</p>
+<p>My goal is to outline why this is true in general, and then comment on the intersection of this curious fact with the recent news of
+a bug in the Lean theorm prover.</p>
+<h1 id="what-is-proof">What Is Proof?<a href="#what-is-proof" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>First things first, though - what exactly is a proof? Well, as far as mathematics goes, the definition we seem to have settled on is
+that a proof is a convincing argument that something is true, typically based on things we already accept as being true.</p>
+<p>This definition is vague, of course. What makes an argument convincing? That&rsquo;s really the detail where all the devils in such formal
+systems hang out, and the criteria for being &ldquo;convincing&rdquo; have changed pretty radically over the years.</p>
+<p>Most people credit Euclid with the introduction of the modern axiomatic method in math, where we start from a small set of definitions
+or working facts and then deduce whole fields of study as a consquence of these apparently simple origins. All the same, the ancient
+Greeks often accepted geometric or visual proofs growing out of those axioms which later mathetmaticians were skeptical of, particularly
+as analytic geometry and algebra flourished, meaning most people were much more familiar with numeric manipulations and their enhanced precision
+compared to visual demonstrations that might subtly rely on aspects of scale or propotion.</p>
+<p>Despite this change, the overall complexity of proofs remained fairly stable down the years, more or less up through the advent of calculus
+and its early development. Most proofs were understood in terms of relatively familiar (and well-behaved) examples, and a good deal of
+what made the demonstrations work was still left up to interpretation and intuition.</p>
+<p>Somewhere in the 19th century, that began to change drastically. As people pushed into more and more esoteric applications of calculus, formalizing
+the discipline of real analysis, traditional proofs started to reveal some problematic gaps. Widely-assumed facts found counterexamples -
+fuctions that were everywhere continuous but nowhere differentiable, or those that were everywhere discontinuous but still integrable! Mathematics
+suddenly had to grapple with a need for much more precise specification of the conditions where proved theorems held true, leading to a re-analysis of
+entire subfields of study.</p>
+<p>And then the wheels really came off.</p>
+<p>Bertrand Russel and Alfred Whitehead, while trying to formalize math&rsquo;s foundations, managed to find paradoxes which forced a restructuring
+of set theory from the axioms up. Not much later, Turing showed that the solutions to certain equations could exist without being computable,
+and Gödel demonstrated the almost unbelievable fact that there existed true theorems in mathematics which could not be proved from the axioms of the system.</p>
+<p>Perhaps ironically, these major upsets came at a time when pure mathematics was trying to solidify its claim to absolute certainty and rationality.
+Rather than cementing a perfectly consistent and unarguable edifice of pure reason, the attempts to formalize math&rsquo;s foundations exposed a whole new
+stratum of fascinating and difficult problems!</p>
+<p>In some ways, I&rsquo;d argue that&rsquo;s a much better result. It&rsquo;s certainly a much more <em>interesting</em> one.</p>
+<h1 id="enter-the-machine">Enter the Machine<a href="#enter-the-machine" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>The other wrinkle with proofs has to do with computers, specifically with the idea of machine proof and formal verification. The idea is
+fairly simple, though not uncontroversial.</p>
+<p>If we have a small core of proof tactics that are well-verified, we can use these to manipulate
+constructs built up from a well-specified computer language and arrive at conclusions with no possibility of failure due to subjectivity -
+no misunderstood premises, no elided demonstrations, no &ldquo;clearly&rdquo;, &ldquo;elementary&rdquo;, or &ldquo;obviously&rdquo; used to batter down objections.</p>
+<p>Just cold, hard, mechanical logic.</p>
+<p>Of course, there&rsquo;s disagreement here too. Mostly around all those &ldquo;well-verified&rdquo; and &ldquo;well-specified&rdquo; weasel words. Most people who interact
+with a computer for any length of time are familiar with bugs, and it&rsquo;s easy to see how the crisp perfection of a mechanical mathematician
+could be spoiled by some silly logic error in its proof engine.</p>
+<p>Typically, the response is to focus on minimizing the moving parts in the proof methods and the language itself, paired with rigorous specification
+and torture testing of each and every component.</p>
+<p>With the advent of a computer proof of the Four Color Theorem, computerized proof systems became more and more accepted as an aid to (or outright
+source of) new proofs.</p>
+<p>While that might seem to take the wind out of the &ldquo;proof as a social construct&rdquo; view, at least where formal methods are applicable, it turns
+out that bugs in proof systems aren&rsquo;t so hypothetical. Even the extremely well-tested ones.</p>
+<h1 id="so-funny-story">So, Funny Story&hellip;<a href="#so-funny-story" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>About those bugs - Lean, probably the most famous pure-math-oriented prover recently fell victim to an embarrassing one. A researcher was able
+to submit a complete proof of the <a href="https://en.wikipedia.org/wiki/Collatz_conjecture">Collatz conjecture</a> which passed all checks. If it had
+been genuine, it would have been a huge result (at least for folks interested in these sorts of long-standing unsolved problems), but it
+turned out that the only reason verification succeeded was due to a bug in one of the darker corners of Lean&rsquo;s type system.</p>
+<p>Based on the discussion by Lean contributors on Mastodon (Mathstodon?), it looks like this flaw in the engine came about because that portion
+of the type system was complex and ambiguous enough that it hadn&rsquo;t been thoroughly explored elsewhere, meaning Lean&rsquo;s implementation was the
+<em>de facto</em> reference implementation.</p>
+<p>As a consequence, the other tools that were designed to cross-check Lean&rsquo;s results more or less ended up copying its homework, and were
+unable to unearth the bug independently.</p>
+<p>Since the person who submitted the proof has been involved pretty deeply with the formal verification community, there&rsquo;s also speculation
+that this might have been an intentional attempt to shine light on a particular shortcoming of the system.</p>
+<p>Either way, I think it underscores the fact that the pesky human element will remain with mathematics for a long time, and that proofs will
+continue to depend on the notion of what we as humans find convincing.</p>
+<h1 id="limits-of-knowledge">Limits of Knowledge<a href="#limits-of-knowledge" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>All this of course doesn&rsquo;t mean that we can&rsquo;t know things, or that mathematical proofs are useless. But it does remind us not to put blind
+faith in purity - pure mathematics, pure reason, pure intellect. And those who would wield such things as a cudgel would do well to remember
+the shock of the Incompleteness Theorem, or our little bug of the day today.</p>
+<p>We must become comfortable with at least some sliver of ambiguity, of uncertainty. And we must always relate what we think we know back to
+the real world and the real experiences of ourselves and others.</p>
+<p>If we&rsquo;re very lucky, we might prove ourselves wrong and find there are even more worlds to explore than we thought!</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+    
+    
+      <a href="https://briar-patch.neocities.org/posts/admire_purity/" class="button inline next">
+         [<span class="button__text">Please Do Not Admire Its Purity</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

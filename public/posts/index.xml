@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Briar Patch</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jul 2026 23:52:26 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://briar-patch.neocities.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Don&#39;t Believe Everything You Prove</title>
+      <link>https://briar-patch.neocities.org/posts/dont_believe_prove/</link>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://briar-patch.neocities.org/posts/dont_believe_prove/</guid>
+      <description>&lt;p&gt;In many ways, this is a companion post to my &lt;a href=&#34;../admire_purity&#34;&gt;complaint&lt;/a&gt; about John Backus&amp;rsquo; Turing lecture. If you travel&#xA;far enough along the smarter-than-thou asshole path, you&amp;rsquo;ll usually find the end of the line somewhere around formal proof methods.&lt;/p&gt;&#xA;&lt;p&gt;The idea is that if we can elaborate a proof from a well-verified set of operations and a minimal collection of axioms, the thing&#xA;we&amp;rsquo;re trying to demonstrate &lt;em&gt;has&lt;/em&gt; to be correct. It&amp;rsquo;s the ultimate trump card for those seeking a pure, unassailable foundation for&#xA;their program (or, increasingly, their philosophy of life).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Please Do Not Admire Its Purity</title>
       <link>https://briar-patch.neocities.org/posts/admire_purity/</link>

@@ -6,8 +6,43 @@
     <description>Recent content in Tags on Briar Patch</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jul 2026 23:52:26 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://briar-patch.neocities.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bugs</title>
+      <link>https://briar-patch.neocities.org/tags/bugs/</link>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://briar-patch.neocities.org/tags/bugs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Formal Proof</title>
+      <link>https://briar-patch.neocities.org/tags/formal-proof/</link>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://briar-patch.neocities.org/tags/formal-proof/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Math</title>
+      <link>https://briar-patch.neocities.org/tags/math/</link>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://briar-patch.neocities.org/tags/math/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proof</title>
+      <link>https://briar-patch.neocities.org/tags/proof/</link>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://briar-patch.neocities.org/tags/proof/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rant</title>
+      <link>https://briar-patch.neocities.org/tags/rant/</link>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://briar-patch.neocities.org/tags/rant/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Functional Programming</title>
       <link>https://briar-patch.neocities.org/tags/functional-programming/</link>
@@ -20,13 +55,6 @@
       <link>https://briar-patch.neocities.org/tags/jerks/</link>
       <pubDate>Fri, 31 Jul 2026 23:52:26 -0700</pubDate>
       <guid>https://briar-patch.neocities.org/tags/jerks/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rant</title>
-      <link>https://briar-patch.neocities.org/tags/rant/</link>
-      <pubDate>Fri, 31 Jul 2026 23:52:26 -0700</pubDate>
-      <guid>https://briar-patch.neocities.org/tags/rant/</guid>
       <description></description>
     </item>
     <item>
