@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Editing on Briar Patch</title>
+    <link>https://briar-patch.neocities.org/tags/editing/</link>
+    <description>Recent content in Editing on Briar Patch</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Aug 2026 21:52:51 -0700</lastBuildDate>
+    <atom:link href="https://briar-patch.neocities.org/tags/editing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GITR: Embracing Your Editor</title>
+      <link>https://briar-patch.neocities.org/posts/gitr_editors/</link>
+      <pubDate>Tue, 25 Aug 2026 21:52:51 -0700</pubDate>
+      <guid>https://briar-patch.neocities.org/posts/gitr_editors/</guid>
+      <description>&lt;p&gt;Hi! Hello! I&amp;rsquo;m finally getting back to &lt;a href=&#34;../growing_into_the_role&#34;&gt;this thing&lt;/a&gt;. Sorry it took so long,&#xA;but inspiration is a cruel mistress.&lt;/p&gt;&#xA;&lt;p&gt;So, what&amp;rsquo;s the topic for today? Well, if you don&amp;rsquo;t already know, you&amp;rsquo;ll learn fairly quickly once you&#xA;start a job in software that developing software requires a &lt;em&gt;lot&lt;/em&gt; of writing.&lt;/p&gt;&#xA;&lt;p&gt;You write code.&lt;/p&gt;&#xA;&lt;p&gt;You write tests.&lt;/p&gt;&#xA;&lt;p&gt;You write configuration files.&lt;/p&gt;&#xA;&lt;p&gt;You (better) write documentation.&lt;/p&gt;&#xA;&lt;p&gt;You write design documents and emails and Slack messages&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -39,3 +39,4 @@ that seem to me to be the most important for newer developers to understand and 
 # Posts
 
 0. [Resources](../gitr_resources)
+1. [Embracing Your Editor](../gitr_editors)
