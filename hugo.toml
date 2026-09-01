@@ -15,6 +15,7 @@ pagination.pagerSize = 5
 [languages]
   [languages.en]
     title = "Briar Patch"
+    email = "test@example.com"
     copyright = ""
     [languages.en.params]
       subtitle = "Bumbling Through Thorns"
@@ -32,8 +33,8 @@ pagination.pagerSize = 5
 #        name = "About"
 #        url = "/about"
 #
-#      [[languages.en.menu.main]]
-#        identifier = "test"
-#        name = "Test"
-#        url = "/test"
-#
+      [[languages.en.menu.main]]
+        identifier = "contact"
+        name = "Contact"
+        url = "/contact"
+
